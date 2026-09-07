@@ -1,0 +1,297 @@
+python -m evaluation.ragas_eval --dataset evaluation/json/all_groundtruth.json --out evaluation/results/ragas_toggle/bm25/all_ragas_bm25.json
+
+python -m evaluation.ragas_eval --dataset evaluation/json/all_groundtruth.json --out evaluation/results/ragas_toggle/dense/all_ragas_dense.json --stage dense
+
+python -m evaluation.ragas_eval --dataset evaluation/json/all_groundtruth.json --out evaluation/results/ragas_toggle/rrf/all_ragas_rrf.json --stage rrf
+
+python -m evaluation.ragas_eval --dataset evaluation/json/all_groundtruth.json --out evaluation/results/ragas_toggle/all_ragas_reranker.json --stage reranker
+
+python -m evaluation.ragas_eval --dataset evaluation/json/all_groundtruth.json --out evaluation/results/ragas_toggle/all_ragas.json 
+
+
+
+
+======================================================================
+RAGAS EVALUATION SUMMARY (overall) - BM25
+======================================================================
++-------------------+--------------+
+| Metric            |   Mean Score |
++===================+==============+
+| faithfulness      |        0.197 |
++-------------------+--------------+
+| answer_relevancy  |        0.198 |
++-------------------+--------------+
+| context_precision |        0.241 |
++-------------------+--------------+
+| context_recall    |        0.223 |
++-------------------+--------------+
+
+By evolution_type:
+
+  -- calculation (n=29) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.023
+answer_relevancy          0.033
+context_precision         0.029
+context_recall            0.034
+
+  -- conditional (n=12) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- hallucination (n=18) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.139
+answer_relevancy          0.102
+context_precision         0.204
+context_recall            0.167
+
+  -- reasoning (n=15) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0
+answer_relevancy          0
+context_precision         0.033
+context_recall            0
+
+  -- simple (n=70) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.368
+answer_relevancy          0.367
+context_precision         0.424
+context_recall            0.415
+
+======================================================================
+RAGAS EVALUATION SUMMARY (overall) - Dense
+======================================================================
++-------------------+--------------+
+| Metric            |   Mean Score |
++===================+==============+
+| faithfulness      |        0.275 |
++-------------------+--------------+
+| answer_relevancy  |        0.329 |
++-------------------+--------------+
+| context_precision |        0.299 |
++-------------------+--------------+
+| context_recall    |        0.328 |
++-------------------+--------------+
+
+By evolution_type:
+
+  -- calculation (n=29) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0
+answer_relevancy          0.032
+context_precision         0.063
+context_recall            0
+
+  -- conditional (n=12) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- hallucination (n=18) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.157
+answer_relevancy          0.15
+context_precision         0.201
+context_recall            0.2
+
+  -- reasoning (n=15) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0
+answer_relevancy          0
+context_precision         0.067
+context_recall            0.067
+
+  -- simple (n=70) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.548
+answer_relevancy          0.625
+context_precision         0.522
+context_recall            0.625
+
+======================================================================
+RAGAS EVALUATION SUMMARY (overall) - RRF
+======================================================================
++-------------------+--------------+
+| Metric            |   Mean Score |
++===================+==============+
+| faithfulness      |        0.392 |
++-------------------+--------------+
+| answer_relevancy  |        0.344 |
++-------------------+--------------+
+| context_precision |        0.191 |
++-------------------+--------------+
+| context_recall    |        0.348 |
++-------------------+--------------+
+
+By evolution_type:
+
+  -- calculation (n=29) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.021
+answer_relevancy          0.039
+context_precision         0.033
+context_recall            0.042
+
+  -- conditional (n=12) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- hallucination (n=18) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.312
+answer_relevancy          0.169
+context_precision         0.111
+context_recall            0.1
+
+  -- reasoning (n=15) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0
+answer_relevancy          0
+context_precision         0.042
+context_recall            0
+
+  -- simple (n=70) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.699
+answer_relevancy          0.654
+context_precision         0.498
+context_recall            0.661
+
+======================================================================
+RAGAS EVALUATION SUMMARY (overall) - reranker
+======================================================================
++-------------------+--------------+
+| Metric            |   Mean Score |
++===================+==============+
+| faithfulness      |        0.343 |
++-------------------+--------------+
+| answer_relevancy  |        0.365 |
++-------------------+--------------+
+| context_precision |        0.355 |
++-------------------+--------------+
+| context_recall    |        0.375 |
++-------------------+--------------+
+
+By evolution_type:
+
+  -- calculation (n=29) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.034
+answer_relevancy          0.031
+context_precision         0.033
+context_recall            0.034
+
+  -- conditional (n=12) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- hallucination (n=18) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.071
+answer_relevancy          0.102
+context_precision         0.244
+context_recall            0.056
+
+  -- reasoning (n=15) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0
+answer_relevancy          0
+context_precision         0.022
+context_recall            0.067
+
+  -- simple (n=70) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.673
+answer_relevancy          0.712
+context_precision         0.65
+context_recall            0.729
+
+======================================================================
+RAGAS EVALUATION SUMMARY (overall)
+======================================================================
++-------------------+--------------+
+| Metric            |   Mean Score |
++===================+==============+
+| faithfulness      |        0.308 |
++-------------------+--------------+
+| answer_relevancy  |        0.318 |
++-------------------+--------------+
+| context_precision |        0.343 |
++-------------------+--------------+
+| context_recall    |        0.378 |
++-------------------+--------------+
+
+By evolution_type:
+
+  -- calculation (n=29) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0
+answer_relevancy          0
+context_precision         0.034
+context_recall            0.034
+
+  -- conditional (n=12) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- hallucination (n=18) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.222
+answer_relevancy          0.254
+context_precision         0.207
+context_recall            0.167
+
+  -- reasoning (n=15) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0
+answer_relevancy          0
+context_precision         0
+context_recall            0.033
+
+  -- simple (n=70) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.584
+answer_relevancy          0.588
+context_precision         0.638
+context_recall            0.714

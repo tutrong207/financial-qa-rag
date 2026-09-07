@@ -44,6 +44,25 @@ DENSE_TOP_K = 30               # số ứng viên Dense lấy mỗi query
 FUSION_TOP_K = 30              # số chunks sau RRF đưa vào reranker
 TOP_K = 10                     # số chunks cuối cùng sau reranker
 
+# ----------------------------------------------------------------------------
+# Ablation toggle -- BẬT/TẮT từng thành phần của Hybrid Search để đánh giá
+# riêng từng bước (dùng trong evaluation/*.py, vd ragas_eval.py --stage).
+#
+#   "bm25"     : CHỈ chạy BM25   -- tắt Dense, RRF, Reranker.
+#   "dense"    : CHỈ chạy Dense  -- tắt BM25, RRF, Reranker.
+#   "rrf"      : chạy BM25 + Dense + RRF -- tắt Reranker.
+#   "reranker" : chạy BM25 + Dense, BỎ RRF -- gộp thẳng (union) candidate
+#                của cả 2 rồi đưa nguyên vào Reranker.
+#   "full"     : hành vi ĐẦY ĐỦ như code gốc (BM25 + Dense + RRF + Reranker),
+#                mặc định, KHÔNG đổi hành vi cũ.
+# ----------------------------------------------------------------------------
+STAGE_BM25 = "bm25"
+STAGE_DENSE = "dense"
+STAGE_RRF = "rrf"
+STAGE_RERANKER = "reranker"
+STAGE_FULL = "full"
+VALID_STAGES = (STAGE_FULL, STAGE_BM25, STAGE_DENSE, STAGE_RRF, STAGE_RERANKER)
+
 _MAX_TRACKED_SESSIONS = 500  # tránh self._session_state phình vô hạn theo thời gian chạy
  
 def _strip_diacritics(s: str) -> str:
@@ -392,53 +411,109 @@ class HybridSearchPipeline:
     def RRF_fuse(
         self,
         search_queries: List[str],
-        metadata_filter: Optional[dict] = None,  
+        metadata_filter: Optional[dict] = None,
+        stage: str = STAGE_FULL,
     ) -> tuple[List[str], Dict[str, dict]]:
         """Chạy BM25 + Dense cho từng rewritten query, gộp toàn bộ ranking
         (2 x số rewritten_queries ranking) bằng 1 lần RRF duy nhất -- RRF hỗ
         trợ fuse nhiều ranking cùng lúc nên không cần fuse riêng từng cặp.
- 
+
+        stage: dùng để ĐÁNH GIÁ RIÊNG từng thành phần của pipeline (ablation),
+        xem VALID_STAGES ở đầu file:
+          - "full" / "rrf": chạy CẢ BM25 và Dense, fuse bằng RRF như bản gốc
+            (khác nhau ở chỗ "rrf" thì retrieve()/_retrieve_for_entity() sẽ
+            BỎ QUA bước rerank ngay sau khi gọi hàm này).
+          - "reranker": chạy CẢ BM25 và Dense nhưng KHÔNG fuse bằng RRF --
+            gộp thẳng (union, giữ nguyên thứ tự phát hiện) candidate id của
+            2 nhánh để đưa nguyên vào Reranker chấm điểm lại.
+          - "bm25": CHỈ chạy BM25 (tắt hẳn Dense) -- xếp hạng theo điểm BM25
+            gốc, không qua RRF.
+          - "dense": CHỈ chạy Dense (tắt hẳn BM25) -- xếp hạng theo điểm
+            cosine similarity gốc, không qua RRF.
+
         Trả về:
-          fused_ids     : list[chunk_id] top FUSION_CANDIDATE_LIMIT, đã sort
-                          theo rrf_score giảm dần
+          fused_ids     : list[chunk_id] top FUSION_TOP_K, đã sắp xếp theo
+                          tiêu chí phù hợp với stage (rrf_score / điểm gốc /
+                          union không xếp hạng)
           content_lookup: dict[chunk_id -> {"content", "parent_id"}]
         """
+        if stage not in VALID_STAGES:
+            raise ValueError(f"stage không hợp lệ: {stage!r} (chọn 1 trong {VALID_STAGES})")
+
+        run_bm25 = stage != STAGE_DENSE
+        run_dense = stage != STAGE_BM25
+
         mongo_query, _ = ticker_year_filter(metadata_filter)
         ticker, year = mongo_query.get("ticker"), mongo_query.get("year")
         report_scope = extract_report_scope(metadata_filter)
 
-        _, corpus_ids, bm25_lookup = _get_bm25_index(ticker=ticker, year=year, report_scope=report_scope)
+        corpus_ids: List[str] = []
+        bm25_lookup: Dict[str, dict] = {}
+        if run_bm25:
+            _, corpus_ids, bm25_lookup = _get_bm25_index(ticker=ticker, year=year, report_scope=report_scope)
+
         rankings: List[List[str]] = []
         content_lookup: Dict[str, dict] = {}
         qdrant_cid_to_order_idx: Dict[str, Any] = {}  # Lưu order_index của các chunk xuất hiện từ Qdrant
- 
+        raw_scores: Dict[str, float] = {}             # dùng cho stage="bm25"/"dense" (xếp hạng theo điểm gốc, KHÔNG RRF)
+        candidate_order: "OrderedDict[str, None]" = OrderedDict()  # dùng cho stage="reranker" (union, giữ thứ tự phát hiện)
+
         for q in search_queries:
             q_expanded = expand_query(q)          # xử lí từ viết, thuật ngữ tài chính
-            
-            bm25_hits = self.bm25_search(q_expanded, metadata_filter=metadata_filter)
-            rankings.append([_normalize_cid(cid) for cid, _ in bm25_hits])
-            for cid, _ in bm25_hits:
-                norm_cid = _normalize_cid(cid)
-                if norm_cid not in content_lookup and norm_cid in bm25_lookup:
-                    content_lookup[norm_cid] = bm25_lookup[norm_cid]
- 
-            dense_hits = self.dense_search(q_expanded, metadata_filter=metadata_filter)
-            rankings.append([_normalize_cid(cid) for cid, _, _ in dense_hits])            
-            for cid, _, payload in dense_hits:
-                norm_cid = _normalize_cid(cid)
-                if norm_cid not in content_lookup:
-                    text_content = payload.get("text") or payload.get("content", "")
-                    content_lookup[norm_cid] = {
-                        "content": text_content,
-                        "parent_id": _normalize_cid(payload.get("parent_id")) if payload.get("parent_id") else None,
-                        "order_index": payload.get("order_index")
-                    }
-                if norm_cid not in qdrant_cid_to_order_idx:
-                    qdrant_cid_to_order_idx[norm_cid] = payload.get("order_index")
- 
+
+            if run_bm25:
+                bm25_hits = self.bm25_search(q_expanded, metadata_filter=metadata_filter)
+                rankings.append([_normalize_cid(cid) for cid, _ in bm25_hits])
+                for cid, score in bm25_hits:
+                    norm_cid = _normalize_cid(cid)
+                    if norm_cid not in content_lookup and norm_cid in bm25_lookup:
+                        content_lookup[norm_cid] = bm25_lookup[norm_cid]
+                    raw_scores[norm_cid] = max(raw_scores.get(norm_cid, float("-inf")), score)
+                    candidate_order.setdefault(norm_cid, None)
+
+            if run_dense:
+                dense_hits = self.dense_search(q_expanded, metadata_filter=metadata_filter)
+                rankings.append([_normalize_cid(cid) for cid, _, _ in dense_hits])
+                for cid, score, payload in dense_hits:
+                    norm_cid = _normalize_cid(cid)
+                    if norm_cid not in content_lookup:
+                        text_content = payload.get("text") or payload.get("content", "")
+                        content_lookup[norm_cid] = {
+                            "content": text_content,
+                            "parent_id": _normalize_cid(payload.get("parent_id")) if payload.get("parent_id") else None,
+                            "order_index": payload.get("order_index")
+                        }
+                    if norm_cid not in qdrant_cid_to_order_idx:
+                        qdrant_cid_to_order_idx[norm_cid] = payload.get("order_index")
+                    raw_scores[norm_cid] = max(raw_scores.get(norm_cid, float("-inf")), score)
+                    candidate_order.setdefault(norm_cid, None)
+
+        # -------------------- stage="bm25" hoặc "dense" --------------------
+        # Đánh giá riêng 1 thành phần: KHÔNG qua RRF, xếp hạng thẳng theo
+        # điểm gốc (BM25 score / cosine similarity) đã gộp qua các rewritten
+        # query (lấy điểm cao nhất nếu 1 chunk khớp nhiều query).
+        if stage in (STAGE_BM25, STAGE_DENSE):
+            ranked_ids = sorted(raw_scores.keys(), key=lambda cid: -raw_scores[cid])
+            result_ids = ranked_ids[:FUSION_TOP_K]
+            print(f"[{stage.upper()}-only] Đã TẮT {'Dense' if stage == STAGE_BM25 else 'BM25'}, RRF và Reranker. "
+                  f"Xếp hạng trực tiếp theo điểm gốc. Top {len(result_ids)} chunk ID: {result_ids}")
+            return result_ids, content_lookup
+
+        # -------------------- stage="reranker" --------------------
+        # Chạy đủ BM25 + Dense nhưng BỎ QUA RRF: gộp thẳng (union) candidate
+        # của 2 nhánh, không xếp hạng lại ở đây -- để nguyên cho Reranker
+        # (cross-encoder) tự chấm điểm.
+        if stage == STAGE_RERANKER:
+            result_ids = list(candidate_order.keys())[:FUSION_TOP_K]
+            print(f"[RERANKER-only] Đã TẮT RRF. Gộp thẳng (union) {len(result_ids)} candidate "
+                  f"từ BM25 + Dense để đưa vào Reranker: {result_ids}")
+            return result_ids, content_lookup
+
+        # -------------------- stage="full" hoặc "rrf" --------------------
+        # Logic gốc, không đổi hành vi: RRF fuse toàn bộ ranking BM25 + Dense.
         fused = reciprocal_rank_fusion(rankings)
         RRF_ids = [_normalize_cid(cid) for cid, _ in fused][:FUSION_TOP_K]
-        
+
         cid_to_mongo_idx = {cid: idx for idx, cid in enumerate(corpus_ids)} if corpus_ids else {}
         RRF_mongo_indices = [cid_to_mongo_idx[cid] for cid in RRF_ids if cid in cid_to_mongo_idx]
 
@@ -475,6 +550,7 @@ class HybridSearchPipeline:
         search_queries: List[str],
         entity: Dict[str, Any],
         top_k: int,
+        stage: str = STAGE_FULL,
     ) -> tuple[List[str], List[Dict[str, Any]]]:
         """Chạy TRỌN 1 lượt Hybrid Search (RRF -> fallback bỏ year -> rerank
         -> mở rộng parent) cho ĐÚNG 1 entity (ticker/year/report_scope).
@@ -484,6 +560,11 @@ class HybridSearchPipeline:
         trộn filter với nhau) -- xem retrieve() bên dưới. Đây chính là toàn
         bộ logic cũ của retrieve() (bản chỉ hỗ trợ 1 công ty), giữ nguyên
         không đổi hành vi cho trường hợp 1 công ty.
+
+        stage: xem VALID_STAGES / RRF_fuse() -- "full" (mặc định) giữ nguyên
+        hành vi gốc (BM25+Dense+RRF+Reranker). Các stage ablation khác
+        ("bm25", "dense", "rrf") sẽ BỎ QUA bước rerank() ngay bên dưới và
+        cắt thẳng top_k từ danh sách RRF_fuse() đã trả về.
         """
         metadata_filter = entity
         mongo_query, qdrant_filter = ticker_year_filter(metadata_filter)
@@ -493,13 +574,23 @@ class HybridSearchPipeline:
         print(f"[retrieve] Áp dụng lọc công ty={metadata_filter.get('ticker')}, năm={metadata_filter.get('year')}, report_scope={report_scope}"
               f"cho cả BM25 (mongo_query={mongo_query}) và Dense Vector "
               f"(qdrant_filter={qdrant_filter.model_dump(exclude_none=True) if qdrant_filter else None})")
-        RRF_ids, content_lookup = self.RRF_fuse(search_queries, metadata_filter=metadata_filter)
+        RRF_ids, content_lookup = self.RRF_fuse(search_queries, metadata_filter=metadata_filter, stage=stage)
         if not RRF_ids and metadata_filter.get("ticker"):
             print("[*] Lần 1 không thấy data. Tiến hành Fallback: Bỏ lọc Year, BẮT BUỘC giữ Ticker...")
             fallback_filter = {"ticker": metadata_filter["ticker"], "report_scope": metadata_filter.get("report_scope")}
-            RRF_ids, content_lookup = self.RRF_fuse(search_queries, metadata_filter=fallback_filter)
+            RRF_ids, content_lookup = self.RRF_fuse(search_queries, metadata_filter=fallback_filter, stage=stage)
 
-        top_chunk_ids = self.rerank(user_query, RRF_ids, content_lookup, top_k=top_k)
+        if stage in (STAGE_FULL, STAGE_RERANKER):
+            top_chunk_ids = self.rerank(user_query, RRF_ids, content_lookup, top_k=top_k)
+        else:
+            # stage="bm25"/"dense"/"rrf": KHÔNG qua Reranker -- cắt thẳng
+            # top_k từ danh sách RRF_fuse() đã xếp hạng sẵn (theo điểm gốc
+            # hoặc theo RRF score, tuỳ stage).
+            top_chunk_ids = [
+                _normalize_cid(cid) for cid in RRF_ids
+                if content_lookup.get(_normalize_cid(cid), {}).get("content")
+            ][:top_k]
+            print(f"[{stage.upper()}] Đã TẮT Reranker. Cắt thẳng top {len(top_chunk_ids)} chunk ID: {top_chunk_ids}")
  
         seen_parents = set()
         contexts: List[Dict[str, Any]] = []
@@ -553,6 +644,7 @@ class HybridSearchPipeline:
         top_k: int = TOP_K,
         session_id: Optional[str] = None,
         prep: Optional[Dict[str, Any]] = None,
+        stage: str = STAGE_FULL,
     ) -> Dict[str, Any]:
         """Entry point chính -- gọi hàm NÀY từ RAGController.execute_search()
         thay vì tự làm dense-search riêng như code cũ.
@@ -564,6 +656,16 @@ class HybridSearchPipeline:
         nhiều chunk khớp hơn "lấn át" hoàn toàn công ty còn lại trong 1 lần
         RRF/rerank dùng chung. Câu hỏi thông thường (1 công ty) chạy y hệt
         bản cũ, không đổi hành vi.
+
+        stage: BẬT/TẮT từng thành phần của Hybrid Search để đánh giá riêng
+        (ablation study) -- xem VALID_STAGES ở đầu file / RRF_fuse():
+          - "full"     (mặc định, KHÔNG đổi hành vi cũ): BM25 + Dense + RRF
+                       + Reranker.
+          - "bm25"     : CHỈ BM25 -- tắt Dense, RRF, Reranker.
+          - "dense"    : CHỈ Dense -- tắt BM25, RRF, Reranker.
+          - "rrf"      : BM25 + Dense + RRF -- tắt Reranker.
+          - "reranker" : BM25 + Dense, BỎ RRF -- gộp thẳng candidate rồi
+                       đưa nguyên vào Reranker.
  
         Trả về:
           {
@@ -571,8 +673,12 @@ class HybridSearchPipeline:
             "chunk_ids": list[str],   # top_k chunk_id sau rerank (gộp)
             "context": list[dict],    # nội dung parent tương ứng, đã dedup
             "entities": list[dict],   # các công ty/năm/scope đã dùng để lọc
+            "stage": str,             # stage thực sự đã dùng để retrieve
           }
         """
+        if stage not in VALID_STAGES:
+            raise ValueError(f"stage không hợp lệ: {stage!r} (chọn 1 trong {VALID_STAGES})")
+
         prep = prep if prep is not None else self.process_user_query(user_query, session_id=session_id)
         if prep["type"] == "chitchat":
             return {"is_chitchat": True, "chunk_ids": [], "context": []}
@@ -586,16 +692,16 @@ class HybridSearchPipeline:
 
         if len(entities) <= 1:
             entity = entities[0] if entities else {}
-            top_chunk_ids, contexts = self._retrieve_for_entity(user_query, search_queries, entity, top_k)
+            top_chunk_ids, contexts = self._retrieve_for_entity(user_query, search_queries, entity, top_k, stage=stage)
         else:
             per_entity_k = max(3, top_k // len(entities))
             print(f"[retrieve] Câu hỏi nhiều công ty ({len(entities)}) -- chạy retrieval riêng cho từng "
-                  f"công ty, mỗi công ty tối đa {per_entity_k} chunk sau rerank.")
+                  f"công ty, mỗi công ty tối đa {per_entity_k} chunk (stage={stage}).")
             top_chunk_ids = []
             contexts = []
             seen_parents_global: set = set()
             for entity in entities:
-                ent_chunk_ids, ent_contexts = self._retrieve_for_entity(user_query, search_queries, entity, per_entity_k)
+                ent_chunk_ids, ent_contexts = self._retrieve_for_entity(user_query, search_queries, entity, per_entity_k, stage=stage)
                 top_chunk_ids.extend(ent_chunk_ids)
                 for ctx in ent_contexts:
                     parent_id = ctx["citation"].get("chunk_id")
@@ -618,4 +724,5 @@ class HybridSearchPipeline:
             "chunk_ids": top_chunk_ids,
             "context": contexts,
             "entities": entities,
+            "stage": stage,
         }

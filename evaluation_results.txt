@@ -2,7 +2,7 @@ python -m evaluation.retrieval_eval --dataset evaluation/json/ACB.json --out eva
 
 python -m evaluation.retrieval_eval --dataset evaluation/json/retrieve/A32.json --out evaluation/results/A32_retrieval_results.json
 
-python -m evaluation.ragas_eval --dataset evaluation/json/A32.json --out evaluation/results/A32_ragas_results.json
+python -m evaluation.ragas_eval --dataset evaluation/json/BVH.json --out evaluation/results/BVH_ragas_results.json
 
 Retrieval Evaluation - ACB
 
@@ -173,3 +173,5 @@ GENERATION PHASE EVALUATION REPORT
 +---------------+-----+--------+-----------+-----------+-----------+----------+------+-----------+-----------+
 | simple        |  12 |  0.077 |     0.394 |     0.146 |     0.269 |    0.108 |    0 |     0.257 |     0.508 |
 +---------------+-----+--------+-----------+-----------+-----------+----------+------+-----------+-----------+
+
+

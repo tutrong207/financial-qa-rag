@@ -232,261 +232,6 @@
       }
     ]
   },
-  "c7a5c50e6ec94c0d9c562b04f0d1136d": {
-    "id": "c7a5c50e6ec94c0d9c562b04f0d1136d",
-    "title": "doanh thu của A32 năm 2025",
-    "created_at": "2026-08-28T21:26:04.847487+00:00",
-    "updated_at": "2026-09-04T04:32:14.151319+00:00",
-    "messages": [
-      {
-        "role": "user",
-        "content": "doanh thu của A32 năm 2025"
-      },
-      {
-        "role": "assistant",
-        "content": "- Doanh thu bán hàng và cung cấp dịch vụ năm 2025 đạt 778.316.791.673 đồng [2].\n- Doanh thu thuần bán hàng và cung cấp dịch vụ năm 2025 đạt 777.808.047.055 đồng [3].",
-        "intent": null,
-        "metric_spec": null,
-        "calculation": null,
-        "citations": [
-          {
-            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "page_start": 29,
-            "page_end": 29,
-            "section": "VI. Thông tin bổ sung cho các khoản mục trình bày trong Báo cáo kết quả hoạt động kinh doanh",
-            "ticker": "A32",
-            "year": 2025,
-            "index": 2,
-            "label": "[2] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 29)"
-          },
-          {
-            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "page_start": 29,
-            "page_end": 29,
-            "section": "VI. Thông tin bổ sung cho các khoản mục trình bày trong Báo cáo kết quả hoạt động kinh doanh",
-            "ticker": "A32",
-            "year": 2025,
-            "index": 3,
-            "label": "[3] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 29)"
-          }
-        ]
-      },
-      {
-        "role": "user",
-        "content": "doanh thu của A32 năm 2025\n\n"
-      },
-      {
-        "role": "assistant",
-        "content": "- Doanh thu bán hàng và cung cấp dịch vụ năm 2025 đạt 778.316.791.673 đồng [2].\n- Doanh thu thuần bán hàng và cung cấp dịch vụ năm 2025 đạt 777.808.047.055 đồng [3].",
-        "intent": null,
-        "metric_spec": null,
-        "calculation": null,
-        "citations": [
-          {
-            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "page_start": 29,
-            "page_end": 29,
-            "section": "VI. Thông tin bổ sung cho các khoản mục trình bày trong Báo cáo kết quả hoạt động kinh doanh",
-            "ticker": "A32",
-            "year": 2025,
-            "index": 2,
-            "label": "[2] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 29)"
-          },
-          {
-            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "page_start": 29,
-            "page_end": 29,
-            "section": "VI. Thông tin bổ sung cho các khoản mục trình bày trong Báo cáo kết quả hoạt động kinh doanh",
-            "ticker": "A32",
-            "year": 2025,
-            "index": 3,
-            "label": "[3] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 29)"
-          }
-        ]
-      },
-      {
-        "role": "user",
-        "content": "doanh thu của A32 và Acb năm 2025\n\n"
-      },
-      {
-        "role": "assistant",
-        "content": "Dữ liệu hiện tại trong hệ thống không đủ để trả lời câu hỏi này.",
-        "intent": null,
-        "metric_spec": null,
-        "calculation": null,
-        "citations": [
-          {
-            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "page_start": 12,
-            "page_end": 12,
-            "section": "I. Đặc điểm hoạt động của doanh nghiệp",
-            "ticker": "A32",
-            "year": 2025,
-            "index": 1,
-            "label": "[1] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 12)"
-          },
-          {
-            "doc_id": "ocr_results/ACBS/2025/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "source_file": "\\\\?\\D:\\Temp\\hf_ocr_qy0vg8gr\\ocr_results\\ACBS\\2025\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "page_start": 50,
-            "page_end": 51,
-            "section": "CASH FLOWS OF CUSTOMERS FOR BROKERAGE AND ENTRUSTMENT ACTIVITIES",
-            "ticker": "ACBS",
-            "year": 2025,
-            "index": 2,
-            "label": "[2] m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2.pdf (Trang 50-51)"
-          },
-          {
-            "doc_id": "ocr_results/ACBS/2025/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "source_file": "\\\\?\\D:\\Temp\\hf_ocr_qy0vg8gr\\ocr_results\\ACBS\\2025\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "page_start": 51,
-            "page_end": 52,
-            "section": "CASH FLOWS OF CUSTOMERS FOR BROKERAGE AND ENTRUSTMENT ACTIVITIES",
-            "ticker": "ACBS",
-            "year": 2025,
-            "index": 3,
-            "label": "[3] m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2.pdf (Trang 51-52)"
-          },
-          {
-            "doc_id": "ocr_results/ACBS/2025/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "source_file": "\\\\?\\D:\\Temp\\hf_ocr_qy0vg8gr\\ocr_results\\ACBS\\2025\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "page_start": 49,
-            "page_end": 50,
-            "section": "CASH FLOWS OF CUSTOMERS FOR BROKERAGE AND ENTRUSTMENT ACTIVITIES",
-            "ticker": "ACBS",
-            "year": 2025,
-            "index": 4,
-            "label": "[4] m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2.pdf (Trang 49-50)"
-          },
-          {
-            "doc_id": "ocr_results/ACBS/2025/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "source_file": "\\\\?\\D:\\Temp\\hf_ocr_qy0vg8gr\\ocr_results\\ACBS\\2025\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "page_start": 52,
-            "page_end": 53,
-            "section": "CASH FLOWS OF CUSTOMERS FOR BROKERAGE AND ENTRUSTMENT ACTIVITIES",
-            "ticker": "ACBS",
-            "year": 2025,
-            "index": 5,
-            "label": "[5] m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2.pdf (Trang 52-53)"
-          },
-          {
-            "doc_id": "ocr_results/ACBS/2025/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "source_file": "\\\\?\\D:\\Temp\\hf_ocr_qy0vg8gr\\ocr_results\\ACBS\\2025\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "page_start": 48,
-            "page_end": 49,
-            "section": "CASH FLOWS OF CUSTOMERS FOR BROKERAGE AND ENTRUSTMENT ACTIVITIES",
-            "ticker": "ACBS",
-            "year": 2025,
-            "index": 6,
-            "label": "[6] m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2.pdf (Trang 48-49)"
-          },
-          {
-            "doc_id": "ocr_results/ACBS/2025/m88_20260311_acbs_consolidated__financial_statements_for_the_year_ended_31_december_2025__cbtt1773230809097tsezzaxp/m88_20260311_acbs_consolidated__financial_statements_for_the_year_ended_31_december_2025__cbtt1773230809097tsezzaxp_extracted.txt",
-            "source_file": "\\\\?\\D:\\Temp\\hf_ocr_59fdoqx4\\ocr_results\\ACBS\\2025\\m88_20260311_acbs_consolidated__financial_statements_for_the_year_ended_31_december_2025__cbtt1773230809097tsezzaxp\\m88_20260311_acbs_consolidated__financial_statements_for_the_year_ended_31_december_2025__cbtt1773230809097tsezzaxp_extracted.txt",
-            "page_start": 25,
-            "page_end": 31,
-            "section": "CASH FLOWS OF CUSTOMERS FOR BROKERAGE AND ENTRUSTMENT ACTIVITIES",
-            "ticker": "ACBS",
-            "year": 2025,
-            "index": 7,
-            "label": "[7] m88_20260311_acbs_consolidated__financial_statements_for_the_year_ended_31_december_2025__cbtt1773230809097tsezzaxp.pdf (Trang 25-31)"
-          },
-          {
-            "doc_id": "ocr_results/ACBS/2025/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "source_file": "\\\\?\\D:\\Temp\\hf_ocr_qy0vg8gr\\ocr_results\\ACBS\\2025\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "page_start": 47,
-            "page_end": 48,
-            "section": "CASH FLOWS OF CUSTOMERS FOR BROKERAGE AND ENTRUSTMENT ACTIVITIES",
-            "ticker": "ACBS",
-            "year": 2025,
-            "index": 8,
-            "label": "[8] m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2.pdf (Trang 47-48)"
-          },
-          {
-            "doc_id": "ocr_results/ACBS/2025/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "source_file": "\\\\?\\D:\\Temp\\hf_ocr_qy0vg8gr\\ocr_results\\ACBS\\2025\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "page_start": 46,
-            "page_end": 47,
-            "section": "CASH FLOWS OF CUSTOMERS FOR BROKERAGE AND ENTRUSTMENT ACTIVITIES",
-            "ticker": "ACBS",
-            "year": 2025,
-            "index": 9,
-            "label": "[9] m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2.pdf (Trang 46-47)"
-          },
-          {
-            "doc_id": "ocr_results/ACBS/2025/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2/m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "source_file": "\\\\?\\D:\\Temp\\hf_ocr_qy0vg8gr\\ocr_results\\ACBS\\2025\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2\\m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2_extracted.txt",
-            "page_start": 44,
-            "page_end": 46,
-            "section": "CASH FLOWS OF CUSTOMERS FOR BROKERAGE AND ENTRUSTMENT ACTIVITIES",
-            "ticker": "ACBS",
-            "year": 2025,
-            "index": 10,
-            "label": "[10] m88_20260311_acbs_separate_financial_statements_for_the_year_ended_31_december_2025__cbtt1773230305640qwqrqiu2.pdf (Trang 44-46)"
-          }
-        ]
-      },
-      {
-        "role": "user",
-        "content": "Doanh thu và Lợi nhuận của A32 năm 2025"
-      },
-      {
-        "role": "assistant",
-        "content": "Dưới đây là thông tin về doanh thu và lợi nhuận của Công ty A32 cho năm tài chính kết thúc ngày 31/12/2025:\n\n### Doanh thu\n- **Doanh thu bán hàng và cung cấp dịch vụ**: 778.316.791.673 VND [1].\n- **Các khoản giảm trừ doanh thu**: 508.744.618 VND [1].\n- **Doanh thu thuần**: 777.808.047.055 VND [1].\n\n### Lợi nhuận\n- **Lợi nhuận gộp**: 80.460.072.773 VND [1].\n- **Lợi nhuận thuần từ hoạt động kinh doanh**: 63.442.592.511 VND [1].\n- **Tổng lợi nhuận kế toán trước thuế**: 61.191.061.985 VND [4].\n- **Chi phí thuế thu nhập doanh nghiệp hiện hành**: 10.318.753.821 VND [4].\n- **Lợi nhuận sau thuế**: 50.872.308.164 VND [3]. \n\nNếu bạn cần thêm thông tin chi tiết hoặc có câu hỏi khác, hãy cho tôi biết!",
-        "intent": null,
-        "metric_spec": null,
-        "metric_specs": [],
-        "calculation": null,
-        "calculations": [],
-        "citations": [
-          {
-            "chunk_id": "a1362af39986541d411c54f4167fadb8",
-            "matched_chunk_id": "a1362af39986541d411c54f4167fadb8",
-            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "page_start": 10,
-            "page_end": 11,
-            "section": "BÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH",
-            "ticker": "A32",
-            "year": 2025,
-            "index": 1,
-            "label": "[1] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 10-11)"
-          },
-          {
-            "chunk_id": "bd031f2584e453f99260b3c2df626518",
-            "matched_chunk_id": "dfdc0d982294f1a697a03cfd441f1a85",
-            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "page_start": 31,
-            "page_end": 32,
-            "section": "VI. Thông tin bổ sung cho các khoản mục trình bày trong Báo cáo kết quả hoạt động kinh doanh",
-            "ticker": "A32",
-            "year": 2025,
-            "index": 3,
-            "label": "[3] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 31-32)"
-          },
-          {
-            "chunk_id": "7759b322fa9f8e89f52ec68912b80764",
-            "matched_chunk_id": "107d5294402c2b5b11ac809638731392",
-            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
-            "page_start": 31,
-            "page_end": 31,
-            "section": "VI. Thông tin bổ sung cho các khoản mục trình bày trong Báo cáo kết quả hoạt động kinh doanh",
-            "ticker": "A32",
-            "year": 2025,
-            "index": 4,
-            "label": "[4] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 31)"
-          }
-        ]
-      }
-    ]
-  },
   "509d16957f8c48b3a0191ac1067b601b": {
     "id": "509d16957f8c48b3a0191ac1067b601b",
     "title": "So sánh",
@@ -3056,6 +2801,1553 @@
             "year": 2025,
             "index": 13,
             "label": "[13] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 13-14)"
+          }
+        ]
+      }
+    ]
+  },
+  "ec830c73025b43dbbdd82501d7dcc773": {
+    "id": "ec830c73025b43dbbdd82501d7dcc773",
+    "title": "Demo",
+    "created_at": "2026-09-04T23:41:42.323887+00:00",
+    "updated_at": "2026-09-05T00:05:09.456307+00:00",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lãi cơ bản trên cổ phiếu (EPS) của ngân hàng bảo việt trong năm 2025 là bao nhiêu"
+      },
+      {
+        "role": "assistant",
+        "content": "Lãi cơ bản trên cổ phiếu (EPS) của Tập đoàn Bảo Việt trong năm 2025 là 3.821 VND/cổ phiếu [3].",
+        "intent": null,
+        "metric_spec": null,
+        "metric_specs": [],
+        "calculation": null,
+        "calculations": [],
+        "citations": [
+          {
+            "chunk_id": "e065ce67619d5a265d89aecd42c5567d",
+            "matched_chunk_id": "e065ce67619d5a265d89aecd42c5567d",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Hopnhat/BVH_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_hne14bfm\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Hopnhat\\BVH_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "page_start": 79,
+            "page_end": 80,
+            "section": "THUYẾT MINH BẢO CẢO TÀI CHÍNH HỢP NHÂT",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 3,
+            "label": "[3] BVH_Baocaotaichinh_2025_Kiemtoan_Hopnhat.pdf (Trang 79-80)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "BAF đã góp thêm bao nhiêu vốn vào công ty con Tây An Khánh, thực hiện vào ngày nào"
+      },
+      {
+        "role": "assistant",
+        "content": "Dữ liệu hiện tại trong hệ thống không đủ để trả lời câu hỏi này.",
+        "intent": null,
+        "metric_spec": null,
+        "metric_specs": [],
+        "calculation": null,
+        "calculations": [],
+        "citations": [
+          {
+            "chunk_id": "055b7577dbcfbf9baa6b88f85b035495",
+            "matched_chunk_id": "df49350965613040c9940e9256fe4fef",
+            "doc_id": "ocr_results/BAF/2025/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_lrmdih6v\\ocr_results\\BAF\\2025\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "page_start": 42,
+            "page_end": 43,
+            "section": "THUYẾT MINH BẢO CÁO TÀI CHÍNH HỢP NHẤT",
+            "ticker": "BAF",
+            "year": 2025,
+            "index": 1,
+            "label": "[1] BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat.pdf (Trang 42-43)"
+          },
+          {
+            "chunk_id": "77e8c64fdeb03a80ab91dc5f41346029",
+            "matched_chunk_id": "0e0e69bf638403c91103772539cdda99",
+            "doc_id": "ocr_results/BAF/2025/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_lrmdih6v\\ocr_results\\BAF\\2025\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "page_start": 15,
+            "page_end": 16,
+            "section": "THUYẾT MINH BẢO CÁO TÀI CHÍNH HỢP NHẤT",
+            "ticker": "BAF",
+            "year": 2025,
+            "index": 2,
+            "label": "[2] BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat.pdf (Trang 15-16)"
+          },
+          {
+            "chunk_id": "30ae5875b9281b214bcc38d6e6cfe981",
+            "matched_chunk_id": "ebaac1e2e05ed64210e3c85b6ff51d27",
+            "doc_id": "ocr_results/BAF/2025/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_lrmdih6v\\ocr_results\\BAF\\2025\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "page_start": 27,
+            "page_end": 27,
+            "section": "THUYẾT MINH BẢO CÁO TÀI CHÍNH HỢP NHẤT",
+            "ticker": "BAF",
+            "year": 2025,
+            "index": 3,
+            "label": "[3] BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat.pdf (Trang 27)"
+          },
+          {
+            "chunk_id": "b733f80978faccad0b3a4ce1a929d62e",
+            "matched_chunk_id": "4e0ec2f5c689c8461f095c2765531443",
+            "doc_id": "ocr_results/BAF/2025/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_lrmdih6v\\ocr_results\\BAF\\2025\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "page_start": 27,
+            "page_end": 27,
+            "section": "THUYẾT MINH BẢO CÁO TÀI CHÍNH HỢP NHẤT",
+            "ticker": "BAF",
+            "year": 2025,
+            "index": 4,
+            "label": "[4] BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat.pdf (Trang 27)"
+          },
+          {
+            "chunk_id": "213fb3b41d971d3896cfccdef379a7cf",
+            "matched_chunk_id": "96498fae401614c63cc526938bab3a4f",
+            "doc_id": "ocr_results/BAF/2025/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_lrmdih6v\\ocr_results\\BAF\\2025\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "page_start": 16,
+            "page_end": 17,
+            "section": "THUYẾT MINH BẢO CÁO TÀI CHÍNH HỢP NHẤT",
+            "ticker": "BAF",
+            "year": 2025,
+            "index": 5,
+            "label": "[5] BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat.pdf (Trang 16-17)"
+          },
+          {
+            "chunk_id": "18984580412b57e7cf2b7c933ebf87bc",
+            "matched_chunk_id": "ffa34286472ee765d655353a1a352e2a",
+            "doc_id": "ocr_results/BAF/2025/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_lrmdih6v\\ocr_results\\BAF\\2025\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "page_start": 27,
+            "page_end": 27,
+            "section": "THUYẾT MINH BẢO CÁO TÀI CHÍNH HỢP NHẤT",
+            "ticker": "BAF",
+            "year": 2025,
+            "index": 6,
+            "label": "[6] BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat.pdf (Trang 27)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Công ty A32 đã trích quỹ khen thưởng, phúc lợi với giá trị bao nhiêu, vào ngày nào trong năm 2025"
+      },
+      {
+        "role": "assistant",
+        "content": "Công ty A32 đã trích quỹ khen thưởng, phúc lợi với giá trị 10.000.000.000 đồng trong năm 2025. Các nghị quyết liên quan đến việc trích quỹ này được ban hành vào các ngày sau:\n\n- Nghị quyết số 08A/NQ-HĐQT ngày 02/6/2025\n- Nghị quyết số 12/NQ-HĐQT ngày 18/8/2025\n- Nghị quyết số 15/NQ-HĐQT ngày 30/10/2025 [1].",
+        "intent": null,
+        "metric_spec": null,
+        "metric_specs": [],
+        "calculation": null,
+        "calculations": [],
+        "citations": [
+          {
+            "chunk_id": "bd031f2584e453f99260b3c2df626518",
+            "matched_chunk_id": "a5ddb4c38fc8e3d72488c98258ea30f0",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 31,
+            "page_end": 32,
+            "section": "VI. Thông tin bổ sung cho các khoản mục trình bày trong Báo cáo kết quả hoạt động kinh doanh",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 1,
+            "label": "[1] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 31-32)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "So sánh lợi nhuận sau thuế năm 2025 giữa hai công ty thủy điện AVC (Thủy điện A Vương) và BSA (Thủy điện Buôn Đôn) — công ty nào cao hơn"
+      },
+      {
+        "role": "assistant",
+        "content": "Dưới đây là bảng so sánh lợi nhuận sau thuế năm 2025 giữa hai công ty thủy điện AVC (Thủy điện A Vương) và BSA (Thủy điện Buôn Đôn):\n\n| Công ty               | Lợi nhuận sau thuế năm 2025 (VND)       |\n|----------------------|-----------------------------------------|\n| AVC                  | 269.393.572.146                         [2] |\n| BSA                  | 171.137.623.572                         [6] |\n\n### Nhận xét:\n- Lợi nhuận sau thuế của công ty AVC (Thủy điện A Vương) là **269.393.572.146 VND** [2].\n- Lợi nhuận sau thuế của công ty BSA (Thủy điện Buôn Đôn) là **171.137.623.572 VND** [6].\n\n**Kết luận:** Công ty AVC có lợi nhuận sau thuế cao hơn so với công ty BSA trong năm 2025.",
+        "intent": null,
+        "metric_spec": null,
+        "metric_specs": [],
+        "calculation": null,
+        "calculations": [],
+        "citations": [
+          {
+            "chunk_id": "70a7da185dd2a15ceb9c2b5b71524fda",
+            "matched_chunk_id": "70a7da185dd2a15ceb9c2b5b71524fda",
+            "doc_id": "ocr_results/AVC/2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_s8s57qfr\\ocr_results\\AVC\\2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 28,
+            "page_end": 28,
+            "section": "CÔNG TY CỔ PHẦN THỦY ĐIỆN A VƯƠNG",
+            "ticker": "AVC",
+            "year": 2025,
+            "matched_entity": {
+              "ticker": "AVC",
+              "year": 2025,
+              "report_scope": null
+            },
+            "index": 2,
+            "label": "[2] 4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 28)"
+          },
+          {
+            "chunk_id": "433524cd6964fb47427f79ef23b093d0",
+            "matched_chunk_id": "4cf25d910b333392f7cb4d75bc65f94b",
+            "doc_id": "ocr_results/BSA/2025/2_bsa_2026_3_25_425dd97_vi_baocaotaichinh_kiemtoan_2025_va_giaitrinhlienquandenbctc_2025/2_bsa_2026_3_25_425dd97_vi_baocaotaichinh_kiemtoan_2025_va_giaitrinhlienquandenbctc_2025_extracted.txt",
+            "source_file": "\\\\?\\D:\\Temp\\hf_ocr_p6xw2gho\\ocr_results\\BSA\\2025\\2_bsa_2026_3_25_425dd97_vi_baocaotaichinh_kiemtoan_2025_va_giaitrinhlienquandenbctc_2025\\2_bsa_2026_3_25_425dd97_vi_baocaotaichinh_kiemtoan_2025_va_giaitrinhlienquandenbctc_2025_extracted.txt",
+            "page_start": 17,
+            "page_end": 17,
+            "section": "I. ĐẶC ĐIỂM HOẠT ĐỘNG",
+            "ticker": "BSA",
+            "year": 2025,
+            "matched_entity": {
+              "ticker": "BSA",
+              "year": 2025,
+              "report_scope": null
+            },
+            "index": 6,
+            "label": "[6] 2_bsa_2026_3_25_425dd97_vi_baocaotaichinh_kiemtoan_2025_va_giaitrinhlienquandenbctc_2025.pdf (Trang 17)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Trong ba doanh nghiệp ngành xi măng BCC (Xi măng Bỉm Sơn), BTS (Vicem Bút Sơn) và CDP, doanh nghiệp nào có kết quả kinh doanh tốt nhất năm 2025"
+      },
+      {
+        "role": "assistant",
+        "content": "Để so sánh kết quả kinh doanh của ba doanh nghiệp ngành xi măng BCC (Xi măng Bỉm Sơn), BTS (Vicem Bút Sơn) và CDP (Dược phẩm Trung ương Codupha) trong năm 2025, chúng ta sẽ tổng hợp các số liệu chính từ báo cáo tài chính của từng công ty.\n\n### 1. Công ty Cổ phần Xi măng Bìm Sơn (BCC)\n- **Doanh thu thuần**: Không có số liệu cụ thể trong ngữ cảnh.\n- **Lợi nhuận gộp**: Không có số liệu cụ thể trong ngữ cảnh.\n- **Lợi nhuận thuần**: Không có số liệu cụ thể trong ngữ cảnh.\n\n### 2. Công ty Cổ phần Xi măng Vicem Bút Sơn (BTS)\n- **Doanh thu bán hàng và cung cấp dịch vụ**: 3.314.191.360.653 VND [7].\n- **Doanh thu thuần**: 3.285.275.817.058 VND [7].\n- **Lợi nhuận gộp**: 216.904.008.480 VND [7].\n- **Lợi nhuận thuần từ hoạt động kinh doanh**: 40.614.654.769 VND [7].\n- **Lợi nhuận sau thuế**: 35.392.390.401 VND [8].\n\n### 3. Công ty Cổ phần Dược phẩm Trung ương Codupha (CDP)\n- **Doanh thu bán hàng và cung cấp dịch vụ**: 3.314.191.360.653 VND [7].\n- **Doanh thu thuần**: 3.285.275.817.058 VND [7].\n- **Lợi nhuận gộp**: 216.904.008.480 VND [7].\n- **Lợi nhuận thuần từ hoạt động kinh doanh**: 40.614.654.769 VND [7].\n- **Lợi nhuận sau thuế**: 35.392.390.401 VND [8].\n\n### Nhận xét so sánh:\n- **BCC**: Không có số liệu cụ thể để đánh giá.\n- **BTS**:\n  - Doanh thu thuần: 3.285.275.817.058 VND\n  - Lợi nhuận sau thuế: 35.392.390.401 VND\n- **CDP**:\n  - Doanh thu thuần: 3.285.275.817.058 VND\n  - Lợi nhuận sau thuế: 35.392.390.401 VND\n\n### Kết luận:\nDựa trên số liệu hiện có, BCC không có thông tin để đánh giá. Cả BTS và CDP có doanh thu thuần và lợi nhuận sau thuế giống nhau. Do đó, không thể xác định doanh nghiệp nào có kết quả kinh doanh tốt hơn giữa BTS và CDP trong năm 2025. Cần thêm thông tin từ BCC để có cái nhìn tổng quát hơn.",
+        "intent": null,
+        "metric_spec": null,
+        "metric_specs": [],
+        "calculation": null,
+        "calculations": [],
+        "citations": [
+          {
+            "chunk_id": "43b21a8013beb4363b7316d3c6723d57",
+            "matched_chunk_id": "72bbe6b0e3322a60789a8c8b6ccb5f91",
+            "doc_id": "ocr_results/CDP/2025/2_cdp_2026_3_26_41ccf71_bctc_2025_da_kiem_toan_hn_vi_sign/2_cdp_2026_3_26_41ccf71_bctc_2025_da_kiem_toan_hn_vi_sign_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_ydy6y9nu\\ocr_results\\CDP\\2025\\2_cdp_2026_3_26_41ccf71_bctc_2025_da_kiem_toan_hn_vi_sign\\2_cdp_2026_3_26_41ccf71_bctc_2025_da_kiem_toan_hn_vi_sign_extracted.txt",
+            "page_start": 9,
+            "page_end": 11,
+            "section": "BÁO CÁO KÊT QUẢ HOẠT ĐỘNG KINH DOANH HỢP NHẤT",
+            "ticker": "CDP",
+            "year": 2025,
+            "matched_entity": {
+              "ticker": "CDP",
+              "year": 2025,
+              "report_scope": null
+            },
+            "index": 7,
+            "label": "[7] 2_cdp_2026_3_26_41ccf71_bctc_2025_da_kiem_toan_hn_vi_sign.pdf (Trang 9-11)"
+          },
+          {
+            "chunk_id": "df3623914b6f0e7b2fe88fd31959b1d1",
+            "matched_chunk_id": "837d73e3e05dd8b95fff0c9322e81f55",
+            "doc_id": "ocr_results/CDP/2025/2_cdp_2026_3_26_41ccf71_bctc_2025_da_kiem_toan_hn_vi_sign/2_cdp_2026_3_26_41ccf71_bctc_2025_da_kiem_toan_hn_vi_sign_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_ydy6y9nu\\ocr_results\\CDP\\2025\\2_cdp_2026_3_26_41ccf71_bctc_2025_da_kiem_toan_hn_vi_sign\\2_cdp_2026_3_26_41ccf71_bctc_2025_da_kiem_toan_hn_vi_sign_extracted.txt",
+            "page_start": 11,
+            "page_end": 13,
+            "section": "BÁO CÁO LƯU CHUYÊN TIỀN TỆ HỢP NHẤT",
+            "ticker": "CDP",
+            "year": 2025,
+            "matched_entity": {
+              "ticker": "CDP",
+              "year": 2025,
+              "report_scope": null
+            },
+            "index": 8,
+            "label": "[8] 2_cdp_2026_3_26_41ccf71_bctc_2025_da_kiem_toan_hn_vi_sign.pdf (Trang 11-13)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Tính tốc độ tăng trưởng (YoY) lợi nhuận sau thuế của AVC năm 2025 so với năm 2024"
+      },
+      {
+        "role": "assistant",
+        "content": "- Không tìm đủ dữ liệu để tính **Tăng trưởng so với cùng kỳ năm trước (YoY)** cho AVC năm 2025. Thiếu: Giá trị cùng kỳ năm trước.",
+        "intent": {
+          "metric_key": "yoy_growth",
+          "metric_keys": [
+            "yoy_growth"
+          ],
+          "ticker": "AVC",
+          "year": 2025,
+          "quarter": null,
+          "compare_year": 2024,
+          "compare_quarter": null,
+          "report_scope": "consolidated",
+          "raw_query": "Tính tốc độ tăng trưởng (YoY) lợi nhuận sau thuế của AVC năm 2025 so với năm 2024"
+        },
+        "metric_spec": {
+          "yoy_growth": {
+            "formula": "(current_value - prior_year_value) / prior_year_value",
+            "required_metrics": [
+              "current_value",
+              "prior_year_value"
+            ]
+          }
+        },
+        "metric_specs": [
+          {
+            "yoy_growth": {
+              "formula": "(current_value - prior_year_value) / prior_year_value",
+              "required_metrics": [
+                "current_value",
+                "prior_year_value"
+              ]
+            }
+          }
+        ],
+        "calculation": null,
+        "calculations": [],
+        "citations": [
+          {
+            "chunk_id": "0cdb7ccab76f3eab604943f8075ae2cb",
+            "matched_chunk_id": "e7ffde9067ef132f891a48eb634fcad0",
+            "doc_id": "ocr_results/AVC/2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_s8s57qfr\\ocr_results\\AVC\\2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 7,
+            "page_end": 7,
+            "section": "CÔNG TY CỔ PHẦN THỦY ĐIỆN A VƯƠNG",
+            "ticker": "AVC",
+            "year": 2025,
+            "index": 1,
+            "label": "[1] 4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 7)"
+          },
+          {
+            "chunk_id": "5d750431e8ea5dc014ebba3d3f63ad46",
+            "matched_chunk_id": "079ef06d51f200f189c1de76cc5f2e2b",
+            "doc_id": "ocr_results/AVC/2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_s8s57qfr\\ocr_results\\AVC\\2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 8,
+            "page_end": 8,
+            "section": "CÔNG TY CỔ PHẦN THỦY ĐIỆN A VƯƠNG",
+            "ticker": "AVC",
+            "year": 2025,
+            "index": 2,
+            "label": "[2] 4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 8)"
+          },
+          {
+            "chunk_id": "890e1068aa9e4926f9606b0fa2380e71",
+            "matched_chunk_id": "a1a62a77ea9186c1a6602062bd811a90",
+            "doc_id": "ocr_results/AVC/2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_s8s57qfr\\ocr_results\\AVC\\2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 13,
+            "page_end": 13,
+            "section": "CÔNG TY CỔ PHẦN THỦY ĐIỆN A VƯƠNG",
+            "ticker": "AVC",
+            "year": 2025,
+            "index": 3,
+            "label": "[3] 4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 13)"
+          },
+          {
+            "chunk_id": "b1e16093c7f3a7b8b6bb109a0dae8a34",
+            "matched_chunk_id": "bd859fa0ce01a43fca2a9935b06e349a",
+            "doc_id": "ocr_results/AVC/2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_s8s57qfr\\ocr_results\\AVC\\2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 14,
+            "page_end": 14,
+            "section": "CÔNG TY CỔ PHẦN THỦY ĐIỆN A VƯƠNG",
+            "ticker": "AVC",
+            "year": 2025,
+            "index": 4,
+            "label": "[4] 4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 14)"
+          },
+          {
+            "chunk_id": "92d352e177229db460a137a9e06b5c69",
+            "matched_chunk_id": "b64c88af7f10b443b1ed0bdeab02084b",
+            "doc_id": "ocr_results/AVC/2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_s8s57qfr\\ocr_results\\AVC\\2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 30,
+            "page_end": 30,
+            "section": "CÔNG TY CỔ PHẦN THỦY ĐIỆN A VƯƠNG",
+            "ticker": "AVC",
+            "year": 2025,
+            "index": 5,
+            "label": "[5] 4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 30)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Tính tốc độ tăng trưởng (YoY) lợi nhuận sau thuế của AMC năm 2025 so với năm 2024\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "- Không tìm đủ dữ liệu để tính **Tăng trưởng so với cùng kỳ năm trước (YoY)** cho AMC năm 2025. Thiếu: Giá trị cùng kỳ năm trước.",
+        "intent": {
+          "metric_key": "yoy_growth",
+          "metric_keys": [
+            "yoy_growth"
+          ],
+          "ticker": "AMC",
+          "year": 2025,
+          "quarter": null,
+          "compare_year": 2024,
+          "compare_quarter": null,
+          "report_scope": "consolidated",
+          "raw_query": "Tính tốc độ tăng trưởng (YoY) lợi nhuận sau thuế của AMC năm 2025 so với năm 2024\n\n"
+        },
+        "metric_spec": {
+          "yoy_growth": {
+            "formula": "(current_value - prior_year_value) / prior_year_value",
+            "required_metrics": [
+              "current_value",
+              "prior_year_value"
+            ]
+          }
+        },
+        "metric_specs": [
+          {
+            "yoy_growth": {
+              "formula": "(current_value - prior_year_value) / prior_year_value",
+              "required_metrics": [
+                "current_value",
+                "prior_year_value"
+              ]
+            }
+          }
+        ],
+        "calculation": null,
+        "calculations": [],
+        "citations": [
+          {
+            "chunk_id": "2ad677e23e24e25a39cef204208b1ac0",
+            "matched_chunk_id": "2ad677e23e24e25a39cef204208b1ac0",
+            "doc_id": null,
+            "source_file": "Báo cáo tài chính",
+            "index": 1,
+            "label": "[1] Báo cáo tài chính (Trang N/A)"
+          },
+          {
+            "chunk_id": "b894a2d1db6a8ff5fa9ec7f75580e14c",
+            "matched_chunk_id": "b894a2d1db6a8ff5fa9ec7f75580e14c",
+            "doc_id": null,
+            "source_file": "Báo cáo tài chính",
+            "index": 2,
+            "label": "[2] Báo cáo tài chính (Trang N/A)"
+          },
+          {
+            "chunk_id": "52969bee7f242fab86b4b63b5371d65e",
+            "matched_chunk_id": "f0331d7d04bc75109d426b4b10a68703",
+            "doc_id": "ocr_results/AMC/2025/1_amc_2026_3_11_d089bdc_vi_baocaotaichinh_kiemtoan_2025/1_amc_2026_3_11_d089bdc_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_1ue185cs\\ocr_results\\AMC\\2025\\1_amc_2026_3_11_d089bdc_vi_baocaotaichinh_kiemtoan_2025\\1_amc_2026_3_11_d089bdc_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 8,
+            "page_end": 8,
+            "section": "BÀNG CÂN ĐỐI KẾ TOÁN (TIẾP THEO)",
+            "ticker": "AMC",
+            "year": 2025,
+            "index": 3,
+            "label": "[3] 1_amc_2026_3_11_d089bdc_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 8)"
+          },
+          {
+            "chunk_id": "696e7a1ae0b9a126136e9eeba9ce0276",
+            "matched_chunk_id": "696e7a1ae0b9a126136e9eeba9ce0276",
+            "doc_id": null,
+            "source_file": "Báo cáo tài chính",
+            "index": 4,
+            "label": "[4] Báo cáo tài chính (Trang N/A)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Tính tốc độ tăng trưởng (YoY) lợi nhuận sau thuế của A32 năm 2025 so với năm 2024\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "**Tăng trưởng so với cùng kỳ năm trước (YoY) của A32 năm 2025**\n\n| Thành phần | Giá trị (VND) | Nguồn |\n|---|---:|---|\n| Giá trị kỳ hiện tại | 491.118.229.908 | A32_Baocaotaichinh_2025_Kiemtoan.pdf, trang 8 — TỔNG CỘNG TÀI SẢN |\n| Giá trị cùng kỳ năm trước | 727.056.756.533 | A32_Baocaotaichinh_2025_Kiemtoan.pdf, trang 10 — Bảng báo cáo tài chính |\n\n**-32,4512 %**\n\nToán học:\n\n$$\n\\begin{aligned}\n\\text{Tăng trưởng so với cùng kỳ năm trước (YoY)} &= \\left(\\frac{\\text{Giá trị kỳ hiện tại} - \\text{Giá trị cùng kỳ năm trước}}{\\text{Giá trị cùng kỳ năm trước}}\\right) \\times 100 \\\\\n&= \\left(\\frac{491.118.229.908 - 727.056.756.533}{727.056.756.533}\\right) \\times 100 \\\\\n&= -32,4512\\ %\n\\end{aligned}\n$$",
+        "intent": {
+          "metric_key": "yoy_growth",
+          "metric_keys": [
+            "yoy_growth"
+          ],
+          "ticker": "A32",
+          "year": 2025,
+          "quarter": null,
+          "compare_year": 2024,
+          "compare_quarter": null,
+          "report_scope": "consolidated",
+          "raw_query": "Tính tốc độ tăng trưởng (YoY) lợi nhuận sau thuế của A32 năm 2025 so với năm 2024\n\n"
+        },
+        "metric_spec": {
+          "yoy_growth": {
+            "formula": "(current_value - prior_year_value) / prior_year_value",
+            "required_metrics": [
+              "current_value",
+              "prior_year_value"
+            ]
+          }
+        },
+        "metric_specs": [
+          {
+            "yoy_growth": {
+              "formula": "(current_value - prior_year_value) / prior_year_value",
+              "required_metrics": [
+                "current_value",
+                "prior_year_value"
+              ]
+            }
+          }
+        ],
+        "calculation": {
+          "formula": "((current_value - prior_year_value) / prior_year_value) * 100",
+          "operands": {
+            "current_value": {
+              "value": 491118229908.0,
+              "source": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+              "page": 8,
+              "table": "TỔNG CỘNG TÀI SẢN"
+            },
+            "prior_year_value": {
+              "value": 727056756533.0,
+              "source": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+              "page": 10,
+              "table": "Bảng báo cáo tài chính"
+            }
+          },
+          "result": -32.4512
+        },
+        "calculations": [
+          {
+            "formula": "((current_value - prior_year_value) / prior_year_value) * 100",
+            "operands": {
+              "current_value": {
+                "value": 491118229908.0,
+                "source": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+                "page": 8,
+                "table": "TỔNG CỘNG TÀI SẢN"
+              },
+              "prior_year_value": {
+                "value": 727056756533.0,
+                "source": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+                "page": 10,
+                "table": "Bảng báo cáo tài chính"
+              }
+            },
+            "result": -32.4512
+          }
+        ],
+        "citations": [
+          {
+            "chunk_id": "d4f7aeec2cf6afedf4b6776388602941",
+            "matched_chunk_id": "47517d479db8d284123920ef1f782bd0",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 8,
+            "page_end": 10,
+            "section": "CÔNG TY TNHH KIỂM TOÁN VÀ ĐỊNH GIÁ VIỆT NAM",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 1,
+            "label": "[1] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 8-10)"
+          },
+          {
+            "chunk_id": "d69ee1d27e994c97135f11696a5cddce",
+            "matched_chunk_id": "716bda42c2856bc5cfa11ba60cf0969b",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 23,
+            "page_end": 24,
+            "section": "V. Thông tin bổ sung cho các khoản mục trình bày trong Bảng cân đối kế toán",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 2,
+            "label": "[2] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 23-24)"
+          },
+          {
+            "chunk_id": "1d29dfa4a9967c18a8050e3693e10c22",
+            "matched_chunk_id": "86f2707de344180daf1e59c513d14929",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 30,
+            "page_end": 31,
+            "section": "VI. Thông tin bổ sung cho các khoản mục trình bày trong Báo cáo kết quả hoạt động kinh doanh",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 3,
+            "label": "[3] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 30-31)"
+          },
+          {
+            "chunk_id": "1c0a11100352650f215bdf702a87afb1",
+            "matched_chunk_id": "5950242def6ef009e354cbff91e665e5",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 25,
+            "page_end": 26,
+            "section": "V. Thông tin bổ sung cho các khoản mục trình bày trong Bảng cân đối kế toán",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 4,
+            "label": "[4] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 25-26)"
+          },
+          {
+            "chunk_id": "b97ebb57506567cf077fa803df0d02a0",
+            "matched_chunk_id": "484b3aa3faba4d433d6c2fea6959fbdd",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 13,
+            "page_end": 14,
+            "section": "IV. Tóm tắt các chính sách kế toán chủ yếu",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 5,
+            "label": "[5] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 13-14)"
+          },
+          {
+            "chunk_id": "a1362af39986541d411c54f4167fadb8",
+            "matched_chunk_id": "8a2cb86f9c084bd2f09673ee067c34da",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 10,
+            "page_end": 11,
+            "section": "BÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 6,
+            "label": "[6] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 10-11)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Vốn chủ sở hữu của AVC được sử dụng hiệu quả đến mức nào để tạo ra lợi nhuận trong năm 2025"
+      },
+      {
+        "role": "assistant",
+        "content": "- Không tìm đủ dữ liệu để tính **Tỷ suất lợi nhuận trên vốn chủ sở hữu (ROE)** cho AVC năm 2025. Thiếu: Vốn chủ sở hữu kỳ hiện tại, Vốn chủ sở hữu kỳ trước.",
+        "intent": {
+          "metric_key": "roe",
+          "metric_keys": [
+            "roe"
+          ],
+          "ticker": "AVC",
+          "year": 2025,
+          "quarter": null,
+          "compare_year": null,
+          "compare_quarter": null,
+          "report_scope": "parent",
+          "raw_query": "Vốn chủ sở hữu của AVC được sử dụng hiệu quả đến mức nào để tạo ra lợi nhuận trong năm 2025"
+        },
+        "metric_spec": {
+          "roe": {
+            "steps": [
+              {
+                "label": "average_shareholders_equity",
+                "expression": "(shareholders_equity_t + shareholders_equity_t_minus_1) / 2"
+              },
+              {
+                "label": null,
+                "expression": "net_income / average_shareholders_equity"
+              }
+            ],
+            "required_metrics": [
+              "net_income",
+              "shareholders_equity_t",
+              "shareholders_equity_t_minus_1"
+            ]
+          }
+        },
+        "metric_specs": [
+          {
+            "roe": {
+              "steps": [
+                {
+                  "label": "average_shareholders_equity",
+                  "expression": "(shareholders_equity_t + shareholders_equity_t_minus_1) / 2"
+                },
+                {
+                  "label": null,
+                  "expression": "net_income / average_shareholders_equity"
+                }
+              ],
+              "required_metrics": [
+                "net_income",
+                "shareholders_equity_t",
+                "shareholders_equity_t_minus_1"
+              ]
+            }
+          }
+        ],
+        "calculation": null,
+        "calculations": [],
+        "citations": [
+          {
+            "chunk_id": "bfcfc7aa33bd91b8ddfca07397953760",
+            "matched_chunk_id": "c07d37869d6deebd253a0d01874b3d71",
+            "doc_id": "ocr_results/AVC/2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_s8s57qfr\\ocr_results\\AVC\\2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 26,
+            "page_end": 26,
+            "section": "CÔNG TY CỔ PHẦN THỦY ĐIỆN A VƯƠNG",
+            "ticker": "AVC",
+            "year": 2025,
+            "index": 1,
+            "label": "[1] 4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 26)"
+          },
+          {
+            "chunk_id": "70a7da185dd2a15ceb9c2b5b71524fda",
+            "matched_chunk_id": "db16889fbb4a934302197936a4a59d74",
+            "doc_id": "ocr_results/AVC/2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_s8s57qfr\\ocr_results\\AVC\\2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 28,
+            "page_end": 28,
+            "section": "CÔNG TY CỔ PHẦN THỦY ĐIỆN A VƯƠNG",
+            "ticker": "AVC",
+            "year": 2025,
+            "index": 2,
+            "label": "[2] 4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 28)"
+          },
+          {
+            "chunk_id": "78f429c1afb1960f25107db275ad49b5",
+            "matched_chunk_id": "78f429c1afb1960f25107db275ad49b5",
+            "doc_id": null,
+            "source_file": "Báo cáo tài chính",
+            "index": 3,
+            "label": "[3] Báo cáo tài chính (Trang N/A)"
+          },
+          {
+            "chunk_id": "09045fb3e21ef551d62dfeb4b6255c53",
+            "matched_chunk_id": "a8587ed246cc7943c6f76c0c2da28333",
+            "doc_id": "ocr_results/AVC/2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025/4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_s8s57qfr\\ocr_results\\AVC\\2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025\\4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 20,
+            "page_end": 20,
+            "section": "CÔNG TY CỔ PHẦN THỦY ĐIỆN A VƯƠNG",
+            "ticker": "AVC",
+            "year": 2025,
+            "index": 4,
+            "label": "[4] 4_avc_2026_4_1_df8b447_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 20)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Vốn chủ sở hữu của A32 được sử dụng hiệu quả đến mức nào để tạo ra lợi nhuận trong năm 2025\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "**Tỷ suất lợi nhuận trên vốn chủ sở hữu (ROE) của A32 năm 2025**\n\n| Thành phần | Giá trị (VND) | Nguồn |\n|---|---:|---|\n| Lợi nhuận sau thuế | 50.872.308.164 | A32_Baocaotaichinh_2025_Kiemtoan.pdf, trang 31 — Lợi nhuận kế toán sau thuế thu nhập doanh nghiệp |\n| Vốn chủ sở hữu kỳ hiện tại | 230.771.982.595 | A32_Baocaotaichinh_2025_Kiemtoan.pdf, trang 8 — Nguồn vốn |\n| Vốn chủ sở hữu kỳ trước | 221.142.793.954 | A32_Baocaotaichinh_2025_Kiemtoan.pdf, trang 8 — Nguồn vốn |\n\n**22,5141 %**\n\nToán học:\n\n$$\n\\begin{aligned}\n\\text{Vốn chủ sở hữu bình quân} &= \\frac{\\text{Vốn chủ sở hữu kỳ hiện tại} + \\text{Vốn chủ sở hữu kỳ trước}}{2} \\\\\n&= \\frac{230.771.982.595 + 221.142.793.954}{2} = 225.957.388.274,5000 \\\\\n\\text{KQ} &= \\frac{\\text{Lợi nhuận sau thuế}}{\\text{Vốn chủ sở hữu bình quân}} \\\\\n&= \\frac{50.872.308.164}{225.957.388.274,5000} = 0,2251 \\\\\n\\text{Tỷ suất lợi nhuận trên vốn chủ sở hữu (ROE)} &= 22,5141\\ \\%\n\\end{aligned}\n$$",
+        "intent": {
+          "metric_key": "roe",
+          "metric_keys": [
+            "roe"
+          ],
+          "ticker": "A32",
+          "year": 2025,
+          "quarter": null,
+          "compare_year": null,
+          "compare_quarter": null,
+          "report_scope": "parent",
+          "raw_query": "Vốn chủ sở hữu của A32 được sử dụng hiệu quả đến mức nào để tạo ra lợi nhuận trong năm 2025\n\n"
+        },
+        "metric_spec": {
+          "roe": {
+            "steps": [
+              {
+                "label": "average_shareholders_equity",
+                "expression": "(shareholders_equity_t + shareholders_equity_t_minus_1) / 2"
+              },
+              {
+                "label": null,
+                "expression": "net_income / average_shareholders_equity"
+              }
+            ],
+            "required_metrics": [
+              "net_income",
+              "shareholders_equity_t",
+              "shareholders_equity_t_minus_1"
+            ]
+          }
+        },
+        "metric_specs": [
+          {
+            "roe": {
+              "steps": [
+                {
+                  "label": "average_shareholders_equity",
+                  "expression": "(shareholders_equity_t + shareholders_equity_t_minus_1) / 2"
+                },
+                {
+                  "label": null,
+                  "expression": "net_income / average_shareholders_equity"
+                }
+              ],
+              "required_metrics": [
+                "net_income",
+                "shareholders_equity_t",
+                "shareholders_equity_t_minus_1"
+              ]
+            }
+          }
+        ],
+        "calculation": {
+          "formula": "average_shareholders_equity = (shareholders_equity_t + shareholders_equity_t_minus_1) / 2; result = net_income / average_shareholders_equity ; result * 100",
+          "operands": {
+            "net_income": {
+              "value": 50872308164.0,
+              "source": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+              "page": 31,
+              "table": "Lợi nhuận kế toán sau thuế thu nhập doanh nghiệp"
+            },
+            "shareholders_equity_t": {
+              "value": 230771982595.0,
+              "source": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+              "page": 8,
+              "table": "Nguồn vốn"
+            },
+            "shareholders_equity_t_minus_1": {
+              "value": 221142793954.0,
+              "source": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+              "page": 8,
+              "table": "Nguồn vốn"
+            }
+          },
+          "result": 22.5141
+        },
+        "calculations": [
+          {
+            "formula": "average_shareholders_equity = (shareholders_equity_t + shareholders_equity_t_minus_1) / 2; result = net_income / average_shareholders_equity ; result * 100",
+            "operands": {
+              "net_income": {
+                "value": 50872308164.0,
+                "source": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+                "page": 31,
+                "table": "Lợi nhuận kế toán sau thuế thu nhập doanh nghiệp"
+              },
+              "shareholders_equity_t": {
+                "value": 230771982595.0,
+                "source": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+                "page": 8,
+                "table": "Nguồn vốn"
+              },
+              "shareholders_equity_t_minus_1": {
+                "value": 221142793954.0,
+                "source": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+                "page": 8,
+                "table": "Nguồn vốn"
+              }
+            },
+            "result": 22.5141
+          }
+        ],
+        "citations": [
+          {
+            "chunk_id": "bd031f2584e453f99260b3c2df626518",
+            "matched_chunk_id": "dfdc0d982294f1a697a03cfd441f1a85",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 31,
+            "page_end": 32,
+            "section": "VI. Thông tin bổ sung cho các khoản mục trình bày trong Báo cáo kết quả hoạt động kinh doanh",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 1,
+            "label": "[1] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 31-32)"
+          },
+          {
+            "chunk_id": "acc9e7bd15a8ba6d4256945cbf2f9adc",
+            "matched_chunk_id": "6c69c4974453772ef8f44daed98f294e",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 36,
+            "page_end": 37,
+            "section": "CÔNG BÓ THÔNG TIN ĐỊNH KỲ BÁO CÁO TÀI CHÍNH",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 2,
+            "label": "[2] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 36-37)"
+          },
+          {
+            "chunk_id": "1d29dfa4a9967c18a8050e3693e10c22",
+            "matched_chunk_id": "86f2707de344180daf1e59c513d14929",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 30,
+            "page_end": 31,
+            "section": "VI. Thông tin bổ sung cho các khoản mục trình bày trong Báo cáo kết quả hoạt động kinh doanh",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 3,
+            "label": "[3] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 30-31)"
+          },
+          {
+            "chunk_id": "d4f7aeec2cf6afedf4b6776388602941",
+            "matched_chunk_id": "5b56afcbb6bb852c7acb742db325850c",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 8,
+            "page_end": 10,
+            "section": "CÔNG TY TNHH KIỂM TOÁN VÀ ĐỊNH GIÁ VIỆT NAM",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 4,
+            "label": "[4] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 8-10)"
+          },
+          {
+            "chunk_id": "709758206cee3d80e6f9c929389d82a2",
+            "matched_chunk_id": "b71ef239e8787f11d799bc8833b7b802",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 27,
+            "page_end": 28,
+            "section": "V. Thông tin bổ sung cho các khoản mục trình bày trong Bảng cân đối kế toán",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 5,
+            "label": "[5] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 27-28)"
+          },
+          {
+            "chunk_id": "ea478168971dee93c6f3fab8682ce7ca",
+            "matched_chunk_id": "1f4eb001936e6d590187ccf4e57a49ba",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 11,
+            "page_end": 12,
+            "section": "BÁO CÁO LUU CHUYÊN TIÊN TỆ",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 6,
+            "label": "[6] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 11-12)"
+          },
+          {
+            "chunk_id": "a1362af39986541d411c54f4167fadb8",
+            "matched_chunk_id": "8a2cb86f9c084bd2f09673ee067c34da",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 10,
+            "page_end": 11,
+            "section": "BÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 7,
+            "label": "[7] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 10-11)"
+          },
+          {
+            "chunk_id": "e920def044d2f586c127d20397577a49",
+            "matched_chunk_id": "740da746ff1e5e2b0d8f6c459a7617ec",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 4,
+            "page_end": 4,
+            "section": "BÁO CÁO CỦA BAN ĐIỀU HÀNH",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 8,
+            "label": "[8] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 4)"
+          },
+          {
+            "chunk_id": "07c4a5ed14b0ba201f7087484ae57253",
+            "matched_chunk_id": "c0d22f421454928b0355a0a315ec1e51",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 5,
+            "page_end": 5,
+            "section": "BÁO CÁO CỦA BAN ĐIỀU HÀNH",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 9,
+            "label": "[9] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 5)"
+          },
+          {
+            "chunk_id": "f7fda3c46f8ae1cb0435cce88b8f6c8b",
+            "matched_chunk_id": "43b65f69c287e534a3f2c0feba1882e7",
+            "doc_id": "ocr_results/A32/2025/A32_Baocaotaichinh_2025_Kiemtoan/A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_uxlpscfb\\ocr_results\\A32\\2025\\A32_Baocaotaichinh_2025_Kiemtoan\\A32_Baocaotaichinh_2025_Kiemtoan_extracted.txt",
+            "page_start": 26,
+            "page_end": 27,
+            "section": "V. Thông tin bổ sung cho các khoản mục trình bày trong Bảng cân đối kế toán",
+            "ticker": "A32",
+            "year": 2025,
+            "index": 10,
+            "label": "[10] A32_Baocaotaichinh_2025_Kiemtoan.pdf (Trang 26-27)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Hãy tính đồng thời ROE và gross margin của AAM trong năm 2025"
+      },
+      {
+        "role": "assistant",
+        "content": "- Không tìm đủ dữ liệu để tính **Tỷ suất lợi nhuận trên vốn chủ sở hữu (ROE)** cho AAM năm 2025. Thiếu: Lợi nhuận sau thuế, Vốn chủ sở hữu kỳ hiện tại, Vốn chủ sở hữu kỳ trước.\n- Không tìm đủ dữ liệu để tính **Biên lợi nhuận gộp** cho AAM năm 2025. Thiếu: Lợi nhuận gộp, Doanh thu thuần.",
+        "intent": {
+          "metric_key": "roe",
+          "metric_keys": [
+            "roe",
+            "gross_margin"
+          ],
+          "ticker": "AAM",
+          "year": 2025,
+          "quarter": null,
+          "compare_year": null,
+          "compare_quarter": null,
+          "report_scope": "parent",
+          "raw_query": "Hãy tính đồng thời ROE và gross margin của AAM trong năm 2025"
+        },
+        "metric_spec": {
+          "roe": {
+            "steps": [
+              {
+                "label": "average_shareholders_equity",
+                "expression": "(shareholders_equity_t + shareholders_equity_t_minus_1) / 2"
+              },
+              {
+                "label": null,
+                "expression": "net_income / average_shareholders_equity"
+              }
+            ],
+            "required_metrics": [
+              "net_income",
+              "shareholders_equity_t",
+              "shareholders_equity_t_minus_1"
+            ]
+          }
+        },
+        "metric_specs": [
+          {
+            "roe": {
+              "steps": [
+                {
+                  "label": "average_shareholders_equity",
+                  "expression": "(shareholders_equity_t + shareholders_equity_t_minus_1) / 2"
+                },
+                {
+                  "label": null,
+                  "expression": "net_income / average_shareholders_equity"
+                }
+              ],
+              "required_metrics": [
+                "net_income",
+                "shareholders_equity_t",
+                "shareholders_equity_t_minus_1"
+              ]
+            }
+          }
+        ],
+        "calculation": null,
+        "calculations": [],
+        "citations": []
+      },
+      {
+        "role": "user",
+        "content": "Hãy tính đồng thời ROA và gross margin của BVH trong năm 2025\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "**Biên lợi nhuận gộp của BVH năm 2025**\n\n| Thành phần | Giá trị (VND) | Nguồn |\n|---|---:|---|\n| Lợi nhuận gộp | 1.499.945.791.253 | BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf, trang 9 — BÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH RIÊNG |\n| Doanh thu thuần | 1.756.665.227.884 | BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf, trang 12 — LƯU CHUYÊN TIÊN TỪ HOẠT ĐỘNG KINH DOANH |\n\n**85,3860 %**\n\nToán học:\n\n$$\n\\begin{aligned}\n\\text{Biên lợi nhuận gộp} &= \\left(\\frac{\\text{Lợi nhuận gộp}}{\\text{Doanh thu thuần}}\\right) \\times 100 \\\\\n&= \\left(\\frac{1.499.945.791.253}{1.756.665.227.884}\\right) \\times 100 \\\\\n&= 85,3860\\ %\n\\end{aligned}\n$$\n\n---\n\n**Một số chỉ số không tính được:**\n- Không tìm đủ dữ liệu để tính **Tỷ suất lợi nhuận trên tổng tài sản (ROA)** cho BVH năm 2025. Thiếu: Lợi nhuận sau thuế, Tổng tài sản kỳ trước.",
+        "intent": {
+          "metric_key": "roa",
+          "metric_keys": [
+            "roa",
+            "gross_margin"
+          ],
+          "ticker": "BVH",
+          "year": 2025,
+          "quarter": null,
+          "compare_year": null,
+          "compare_quarter": null,
+          "report_scope": "parent",
+          "raw_query": "Hãy tính đồng thời ROA và gross margin của BVH trong năm 2025\n\n"
+        },
+        "metric_spec": {
+          "roa": {
+            "steps": [
+              {
+                "label": "average_total_assets",
+                "expression": "(total_assets_t + total_assets_t_minus_1) / 2"
+              },
+              {
+                "label": null,
+                "expression": "net_income / average_total_assets"
+              }
+            ],
+            "required_metrics": [
+              "net_income",
+              "total_assets_t",
+              "total_assets_t_minus_1"
+            ]
+          }
+        },
+        "metric_specs": [
+          {
+            "roa": {
+              "steps": [
+                {
+                  "label": "average_total_assets",
+                  "expression": "(total_assets_t + total_assets_t_minus_1) / 2"
+                },
+                {
+                  "label": null,
+                  "expression": "net_income / average_total_assets"
+                }
+              ],
+              "required_metrics": [
+                "net_income",
+                "total_assets_t",
+                "total_assets_t_minus_1"
+              ]
+            }
+          }
+        ],
+        "calculation": {
+          "formula": "(gross_profit / revenue) * 100",
+          "operands": {
+            "gross_profit": {
+              "value": 1499945791253.0,
+              "source": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+              "page": 9,
+              "table": "BÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH RIÊNG"
+            },
+            "revenue": {
+              "value": 1756665227884.0,
+              "source": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+              "page": 12,
+              "table": "LƯU CHUYÊN TIÊN TỪ HOẠT ĐỘNG KINH DOANH"
+            }
+          },
+          "result": 85.386
+        },
+        "calculations": [
+          {
+            "formula": "(gross_profit / revenue) * 100",
+            "operands": {
+              "gross_profit": {
+                "value": 1499945791253.0,
+                "source": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+                "page": 9,
+                "table": "BÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH RIÊNG"
+              },
+              "revenue": {
+                "value": 1756665227884.0,
+                "source": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+                "page": 12,
+                "table": "LƯU CHUYÊN TIÊN TỪ HOẠT ĐỘNG KINH DOANH"
+              }
+            },
+            "result": 85.386
+          }
+        ],
+        "citations": [
+          {
+            "chunk_id": "9623d6c588cc06dbbb2b7d3efb606989",
+            "matched_chunk_id": "d391c919ce421d8dd524774ef0af4ba6",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 16,
+            "page_end": 17,
+            "section": "THUYẾT MINH BÁO CÁO TÀI CHÍNH RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 1,
+            "label": "[1] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 16-17)"
+          },
+          {
+            "chunk_id": "bd9257882bd0e43c57f0f4da44e38f94",
+            "matched_chunk_id": "efdd3cac96a022c8a8359d0491ab9db4",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 28,
+            "page_end": 29,
+            "section": "THUYẾT MINH BÁO CÁO TÀI CHÍNH RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 2,
+            "label": "[2] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 28-29)"
+          },
+          {
+            "chunk_id": "0d2c8f8fe9625805ddc6852ff0b95204",
+            "matched_chunk_id": "fb557ab80e73dbe2c760eac6c988c1a3",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 66,
+            "page_end": 67,
+            "section": "THUYẾT MINH BÁO CÁO TÀI CHÍNH RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 3,
+            "label": "[3] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 66-67)"
+          },
+          {
+            "chunk_id": "596a319ccb86d6ca494cd0511b0b7fae",
+            "matched_chunk_id": "f4bdcec19967f70e9fb034c94f81418d",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 63,
+            "page_end": 64,
+            "section": "THUYẾT MINH BÁO CÁO TÀI CHÍNH RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 4,
+            "label": "[4] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 63-64)"
+          },
+          {
+            "chunk_id": "01910e94a509e80dc8e81fb5f792a198",
+            "matched_chunk_id": "ecd38695ed8c698757c6e3c78930b9fd",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 50,
+            "page_end": 51,
+            "section": "THUYẾT MINH BÁO CÁO TÀI CHÍNH RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 5,
+            "label": "[5] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 50-51)"
+          },
+          {
+            "chunk_id": "a21ae3dcdc079d6e40fff0d82440b8ed",
+            "matched_chunk_id": "e45d0b7d11314a461a34481c17f6a69e",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 9,
+            "page_end": 12,
+            "section": "BẢNG CÂN ĐỐI KẾ TOÁN RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 6,
+            "label": "[6] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 9-12)"
+          },
+          {
+            "chunk_id": "a1a39f35be57b08aa058cf877d357009",
+            "matched_chunk_id": "a1a39f35be57b08aa058cf877d357009",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 33,
+            "page_end": 34,
+            "section": "THUYẾT MINH BÁO CÁO TÀI CHÍNH RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 7,
+            "label": "[7] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 33-34)"
+          },
+          {
+            "chunk_id": "2bf2ae870755e600a6c81bff3dfbf103",
+            "matched_chunk_id": "2bf2ae870755e600a6c81bff3dfbf103",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 48,
+            "page_end": 48,
+            "section": "THUYẾT MINH BÁO CÁO TÀI CHÍNH RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 8,
+            "label": "[8] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 48)"
+          },
+          {
+            "chunk_id": "d8ae5df0207c86c95e9d9f56ebad5e45",
+            "matched_chunk_id": "4a784fe613bade31cd70dc34f5c6e788",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 64,
+            "page_end": 65,
+            "section": "THUYẾT MINH BÁO CÁO TÀI CHÍNH RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 9,
+            "label": "[9] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 64-65)"
+          },
+          {
+            "chunk_id": "ea99c59cbbd82280267549027e4cd011",
+            "matched_chunk_id": "df1400fe04ab687a99483054e30b36b0",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 12,
+            "page_end": 14,
+            "section": "BÁO CÁO LƯU CHUYÊN TIÊN TỆ RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 10,
+            "label": "[10] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 12-14)"
+          },
+          {
+            "chunk_id": "01abf8d2fc18c0ee70b76b9a1fb34a56",
+            "matched_chunk_id": "75045e698d39389b7446fb730340c8c1",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 28,
+            "page_end": 28,
+            "section": "THUYẾT MINH BÁO CÁO TÀI CHÍNH RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 11,
+            "label": "[11] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 28)"
+          },
+          {
+            "chunk_id": "55ec02f4c20324175b09938b4bad4bd1",
+            "matched_chunk_id": "64540b1936ac5e26707b22d5a67b4f30",
+            "doc_id": "ocr_results/BVH/2025/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme/BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_7y0ihugx\\ocr_results\\BVH\\2025\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme\\BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme_extracted.txt",
+            "page_start": 20,
+            "page_end": 21,
+            "section": "THUYẾT MINH BÁO CÁO TÀI CHÍNH RIÊNG",
+            "ticker": "BVH",
+            "year": 2025,
+            "index": 12,
+            "label": "[12] BVH_Baocaotaichinh_2025_Kiemtoan_Congtyme.pdf (Trang 20-21)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Tóm tắt các giao dịch với bên liên quan chính của BAF được thuyết minh trong báo cáo tài chính năm 2025."
+      },
+      {
+        "role": "assistant",
+        "content": "Dưới đây là tóm tắt các giao dịch với bên liên quan chính của Công ty Cổ phần Nông nghiệp BAF Việt Nam trong báo cáo tài chính năm 2025:\n\n### 1. Phải thu ngắn hạn của khách hàng\n| Khách hàng   | Nội dung nghiệp vụ | Số cuối năm (VND) | Số đầu năm (VND) |\n|--------------|---------------------|--------------------|-------------------|\n| Tân Long     | Bán hàng            | 204.636.348        | 276.020.676       |\n| Siba Tech    | Bán hàng            | 3.309.336          | 51.465.028        |\n| Siba Food    | Bán hàng            | -                  | 51.503.060.237    |\n| A An         | Bán hàng            | -                  | 6.709.599.036     |\n| **TỔNG CỘNG**|                     | **207.945.684**    | **58.540.144.977**|\n\n### 2. Trả trước cho người bán ngắn hạn\n| Nhà cung cấp | Nội dung nghiệp vụ | Số cuối năm (VND) | Số đầu năm (VND) |\n|--------------|---------------------|--------------------|-------------------|\n| Siba Tech    | Xây dựng trại       | 134.274.471.647    | 19.218.947.522    |\n| Solacons     | Mua hàng            | 1.145.454.547      | -                 |\n| **TỔNG CỘNG**|                     | **135.419.926.194**| **19.218.947.522**|\n\n### 3. Phải thu ngắn hạn khác\n| Đối tác      | Nội dung nghiệp vụ                     | Số cuối năm (VND) | Số đầu năm (VND) |\n|--------------|----------------------------------------|--------------------|-------------------|\n| BAF Myanmar  | Phải thu từ đầu tư vào công ty liên doanh | 22.110.662.223    | 21.493.391.751    |\n\n### 4. Phải trả người bán ngắn hạn\n| Nhà cung cấp | Nội dung nghiệp vụ | Số cuối năm (VND) | Số đầu năm (VND) |\n|--------------|---------------------|--------------------|-------------------|\n| Siba Tech    | Xây dựng trại       | 305.568.732.760    | 175.151.129.762   |\n| Tân Long     | Mua hàng            | 1.470.020.000      | 182.084.109       |\n| Solacons     | Mua hàng            | 1.383.272.728      | 2.955.932.400     |\n| Vmeco Bạc Liêu| Mua hàng           | 1.381.544.878      | -                 |\n| Siba Cư Jút  | Mua hàng            | 611.891.203        | -                 |\n| Siba Food    | Mua hàng            | -                  | 30.442.955.521    |\n| **TỔNG CỘNG**|                     | **310.415.461.569**| **208.732.101.792**|\n\n### 5. Phải trả người bán dài hạn\n| Nhà cung cấp | Nội dung nghiệp vụ | Số cuối năm (VND) | Số đầu năm (VND) |\n|--------------|---------------------|--------------------|-------------------|\n| Siba Tech    | Xây dựng trại       | 36.687.475.369     | -                 |\n\n### 6. Người mua trả tiền trước ngắn hạn\n| Đối tác      | Nội dung nghiệp vụ | Số cuối năm (VND) | Số đầu năm (VND) |\n|--------------|---------------------|--------------------|-------------------|\n| BAF Myanmar  | Bán hàng            | -                  | 80.658.500        |\n\nCác giao dịch này được thực hiện theo mức giá và các điều khoản niêm yết thông thường trên thị trường và đã được phê duyệt bởi Hội đồng Quản trị của Công ty [3].",
+        "intent": null,
+        "metric_spec": null,
+        "metric_specs": [],
+        "calculation": null,
+        "calculations": [],
+        "citations": [
+          {
+            "chunk_id": "c4d8759c5264b07b2c720a6ea6e9c037",
+            "matched_chunk_id": "21a81664417114989f969626e92f175e",
+            "doc_id": "ocr_results/BAF/2025/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat/BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_lrmdih6v\\ocr_results\\BAF\\2025\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat\\BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt",
+            "page_start": 60,
+            "page_end": 61,
+            "section": "THUYẾT MINH BẢO CÁO TÀI CHÍNH HỢP NHẤT",
+            "ticker": "BAF",
+            "year": 2025,
+            "index": 3,
+            "label": "[3] BAF_Baocaotaichinh_2025_Kiemtoan_Hopnhat.pdf (Trang 60-61)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Dựa vào xu hướng lợi nhuận các năm gần đây, bạn dự đoán tình hình lợi nhuận năm 2026 của AVC sẽ như thế nào"
+      },
+      {
+        "role": "assistant",
+        "content": "- Không tìm đủ dữ liệu để tính **Tăng trưởng so với cùng kỳ năm trước (YoY)** cho AVC năm 2026. Thiếu: Giá trị kỳ hiện tại, Giá trị cùng kỳ năm trước.",
+        "intent": {
+          "metric_key": "yoy_growth",
+          "metric_keys": [
+            "yoy_growth"
+          ],
+          "ticker": "AVC",
+          "year": 2026,
+          "quarter": null,
+          "compare_year": null,
+          "compare_quarter": null,
+          "report_scope": "consolidated",
+          "raw_query": "Dựa vào xu hướng lợi nhuận các năm gần đây, bạn dự đoán tình hình lợi nhuận năm 2026 của AVC sẽ như thế nào"
+        },
+        "metric_spec": {
+          "yoy_growth": {
+            "formula": "(current_value - prior_year_value) / prior_year_value",
+            "required_metrics": [
+              "current_value",
+              "prior_year_value"
+            ]
+          }
+        },
+        "metric_specs": [
+          {
+            "yoy_growth": {
+              "formula": "(current_value - prior_year_value) / prior_year_value",
+              "required_metrics": [
+                "current_value",
+                "prior_year_value"
+              ]
+            }
+          }
+        ],
+        "calculation": null,
+        "calculations": [],
+        "citations": []
+      },
+      {
+        "role": "user",
+        "content": "Dựa vào xu hướng lợi nhuận các năm gần đây, bạn dự đoán tình hình kinh doanh năm 2026 của A32 sẽ như thế nào\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Mình chưa xác định được chính xác chỉ số tài chính bạn muốn tính. Bạn có thể hỏi lại rõ hơn, ví dụ: 'Tính ROE của FPT năm 2024' nhé.",
+        "intent": {
+          "metric_key": null,
+          "metric_keys": [],
+          "ticker": "A32",
+          "year": 2026,
+          "quarter": null,
+          "compare_year": null,
+          "compare_quarter": null,
+          "report_scope": "consolidated",
+          "raw_query": "Dựa vào xu hướng lợi nhuận các năm gần đây, bạn dự đoán tình hình kinh doanh năm 2026 của A32 sẽ như thế nào\n\n"
+        },
+        "metric_spec": null,
+        "metric_specs": [],
+        "calculation": null,
+        "calculations": [],
+        "citations": []
+      },
+      {
+        "role": "user",
+        "content": "Đánh giá tổng quan sức khỏe tài chính của CBI (Gang Thép Cao Bằng) trong năm 2025."
+      },
+      {
+        "role": "user",
+        "content": "Đánh giá tổng quan sức khỏe tài chính của CBI (Gang Thép Cao Bằng) trong năm 2025.\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "**Biên lợi nhuận ròng của CBI năm 2025**\n\n| Thành phần | Giá trị (VND) | Nguồn |\n|---|---:|---|\n| Lợi nhuận sau thuế | -205.232.000 | Báo cáo tài chính — Bảng chỉ tiêu tài chính |\n| Doanh thu thuần | 2.062.050.739.943 | 2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025.pdf, trang 12 — Bảng chỉ tiêu tài chính |\n\n**-0,0100 %**\n\nToán học:\n\n$$\n\\begin{aligned}\n\\text{Biên lợi nhuận ròng} &= \\left(\\frac{\\text{Lợi nhuận sau thuế}}{\\text{Doanh thu thuần}}\\right) \\times 100 \\\\\n&= \\left(\\frac{-205.232.000}{2.062.050.739.943}\\right) \\times 100 \\\\\n&= -0,0100\\ %\n\\end{aligned}\n$$\n\n---\n\n**Một số chỉ số không tính được:**\n- Không tìm đủ dữ liệu để tính **Hệ số thanh toán hiện hành** cho CBI năm 2025. Thiếu: Tài sản ngắn hạn, Nợ ngắn hạn.\n- Không tìm đủ dữ liệu để tính **Hệ số nợ trên vốn chủ sở hữu** cho CBI năm 2025. Thiếu: Tổng nợ phải trả, Vốn chủ sở hữu.\n- Không tìm đủ dữ liệu để tính **Tỷ suất lợi nhuận trên vốn chủ sở hữu (ROE)** cho CBI năm 2025. Thiếu: Vốn chủ sở hữu kỳ hiện tại, Vốn chủ sở hữu kỳ trước.\n- Không tìm đủ dữ liệu để tính **Tỷ suất lợi nhuận trên tổng tài sản (ROA)** cho CBI năm 2025. Thiếu: Tổng tài sản kỳ hiện tại, Tổng tài sản kỳ trước.",
+        "intent": {
+          "metric_key": "current_ratio",
+          "metric_keys": [
+            "current_ratio",
+            "debt_to_equity",
+            "roe",
+            "roa",
+            "net_margin"
+          ],
+          "ticker": "CBI",
+          "year": 2025,
+          "quarter": null,
+          "compare_year": null,
+          "compare_quarter": null,
+          "report_scope": "parent",
+          "raw_query": "Đánh giá tổng quan sức khỏe tài chính của CBI (Gang Thép Cao Bằng) trong năm 2025.\n\n"
+        },
+        "metric_spec": {
+          "current_ratio": {
+            "formula": "current_assets / current_liabilities",
+            "required_metrics": [
+              "current_assets",
+              "current_liabilities"
+            ]
+          }
+        },
+        "metric_specs": [
+          {
+            "current_ratio": {
+              "formula": "current_assets / current_liabilities",
+              "required_metrics": [
+                "current_assets",
+                "current_liabilities"
+              ]
+            }
+          }
+        ],
+        "calculation": {
+          "formula": "(net_income / revenue) * 100",
+          "operands": {
+            "net_income": {
+              "value": -205232000.0,
+              "source": "Báo cáo tài chính",
+              "page": null,
+              "table": "Bảng chỉ tiêu tài chính"
+            },
+            "revenue": {
+              "value": 2062050739943.0,
+              "source": "D:\\Temp\\hf_ocr_tg259o1b\\ocr_results\\CBI\\2025\\2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025\\2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+              "page": 12,
+              "table": "Bảng chỉ tiêu tài chính"
+            }
+          },
+          "result": -0.01
+        },
+        "calculations": [
+          {
+            "formula": "(net_income / revenue) * 100",
+            "operands": {
+              "net_income": {
+                "value": -205232000.0,
+                "source": "Báo cáo tài chính",
+                "page": null,
+                "table": "Bảng chỉ tiêu tài chính"
+              },
+              "revenue": {
+                "value": 2062050739943.0,
+                "source": "D:\\Temp\\hf_ocr_tg259o1b\\ocr_results\\CBI\\2025\\2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025\\2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+                "page": 12,
+                "table": "Bảng chỉ tiêu tài chính"
+              }
+            },
+            "result": -0.01
+          }
+        ],
+        "citations": [
+          {
+            "chunk_id": "987a330091bd45b0ee27533708315b17",
+            "matched_chunk_id": "987a330091bd45b0ee27533708315b17",
+            "doc_id": null,
+            "source_file": "Báo cáo tài chính",
+            "index": 1,
+            "label": "[1] Báo cáo tài chính (Trang N/A)"
+          },
+          {
+            "chunk_id": "18c6facf51819048fffc46b4b834ac09",
+            "matched_chunk_id": "eaf60aacf6decd25a8c0cbc58278ac18",
+            "doc_id": "ocr_results/CBI/2025/2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025/2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_tg259o1b\\ocr_results\\CBI\\2025\\2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025\\2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 3,
+            "page_end": 4,
+            "section": "CÔNG BỐ THÔNG TIN ĐỊNH KỸ BÁO CÁO TÀI CHÍNH",
+            "ticker": "CBI",
+            "year": 2025,
+            "index": 2,
+            "label": "[2] 2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 3-4)"
+          },
+          {
+            "chunk_id": "a88cf30a8fed832708dbd558f4b9c163",
+            "matched_chunk_id": "a88cf30a8fed832708dbd558f4b9c163",
+            "doc_id": null,
+            "source_file": "Báo cáo tài chính",
+            "index": 3,
+            "label": "[3] Báo cáo tài chính (Trang N/A)"
+          },
+          {
+            "chunk_id": "825a1c721360144be202fe322531d4cc",
+            "matched_chunk_id": "825a1c721360144be202fe322531d4cc",
+            "doc_id": null,
+            "source_file": "Báo cáo tài chính",
+            "index": 4,
+            "label": "[4] Báo cáo tài chính (Trang N/A)"
+          },
+          {
+            "chunk_id": "5fb580ea3a989feb17f5929aa996f2c8",
+            "matched_chunk_id": "5fb580ea3a989feb17f5929aa996f2c8",
+            "doc_id": null,
+            "source_file": "Báo cáo tài chính",
+            "index": 5,
+            "label": "[5] Báo cáo tài chính (Trang N/A)"
+          },
+          {
+            "chunk_id": "1114733b7c9562600d2f309dedb15262",
+            "matched_chunk_id": "4ed879a32819e8975fae42efd44d398a",
+            "doc_id": "ocr_results/CBI/2025/2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025/2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "source_file": "D:\\Temp\\hf_ocr_tg259o1b\\ocr_results\\CBI\\2025\\2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025\\2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025_extracted.txt",
+            "page_start": 12,
+            "page_end": 13,
+            "section": "BÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH",
+            "ticker": "CBI",
+            "year": 2025,
+            "index": 6,
+            "label": "[6] 2_cbi_2026_4_2_7a32fd2_vi_baocaotaichinh_kiemtoan_2025.pdf (Trang 12-13)"
+          },
+          {
+            "chunk_id": "798d72c4d1cfae09c2502c3864c0f370",
+            "matched_chunk_id": "798d72c4d1cfae09c2502c3864c0f370",
+            "doc_id": null,
+            "source_file": "Báo cáo tài chính",
+            "index": 7,
+            "label": "[7] Báo cáo tài chính (Trang N/A)"
+          },
+          {
+            "chunk_id": "53c97e249a3dae41c3ee5598fca59d7f",
+            "matched_chunk_id": "53c97e249a3dae41c3ee5598fca59d7f",
+            "doc_id": null,
+            "source_file": "Báo cáo tài chính",
+            "index": 8,
+            "label": "[8] Báo cáo tài chính (Trang N/A)"
           }
         ]
       }

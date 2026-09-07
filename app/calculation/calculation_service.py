@@ -30,6 +30,21 @@ Quy trình:
   5. calculate() ghép kết quả của TỪNG chỉ số thành 1 câu trả lời duy nhất
      (giữ NGUYÊN định dạng cũ khi câu hỏi chỉ có 1 chỉ số, chỉ thêm khối
      phân tách khi có từ 2 chỉ số trở lên).
+
+ABLATION TOGGLE (đồng bộ với app/retrieval/hybrid_search.py):
+  calculate() và _fetch_operand() nhận thêm tham số `stage` (mặc định
+  STAGE_FULL, KHÔNG đổi hành vi cũ) để BẬT/TẮT từng thành phần của Hybrid
+  Search khi tra cứu operand -- dùng cho đánh giá riêng từng bước, xem
+  VALID_STAGES trong app/retrieval/hybrid_search.py:
+    - "full"     : BM25 + Dense + RRF + Reranker (mặc định).
+    - "bm25"     : CHỈ BM25 -- tắt Dense, RRF, Reranker.
+    - "dense"    : CHỈ Dense -- tắt BM25, RRF, Reranker.
+    - "rrf"      : BM25 + Dense + RRF -- tắt Reranker.
+    - "reranker" : BM25 + Dense, BỎ RRF -- gộp thẳng candidate rồi vào
+                   Reranker.
+  `stage` được truyền thẳng vào RRF_fuse(..., stage=stage); bước rerank()
+  chỉ được gọi khi stage in ("full", "reranker") -- y hệt logic đã áp dụng
+  trong HybridSearchPipeline._retrieve_for_entity().
 """
 from __future__ import annotations
 
@@ -47,6 +62,7 @@ from app.models.calculation_schema import CalculationIntent, CalculationResponse
 from app.generation.citation import format_citation_label, clean_source_filename
 from app.services.mongo_client import get_parent_chunk, known_tickers_prompt_text
 from app.calculation.calculation_formatter import format_calculation_answer
+from app.retrieval.hybrid_search import STAGE_FULL, STAGE_RERANKER, VALID_STAGES
 
 
 FIELD_LABELS: dict[str, str] = {
@@ -278,7 +294,13 @@ JSON Output:""",
 
         return intent
 
-    def _fetch_operand(self, field: str, intent: CalculationIntent, period_label: str) -> tuple[Optional[OperandDetail], list[dict]]:
+    def _fetch_operand(
+        self,
+        field: str,
+        intent: CalculationIntent,
+        period_label: str,
+        stage: str = STAGE_FULL,
+    ) -> tuple[Optional[OperandDetail], list[dict]]:
         field_label = FIELD_LABELS.get(field, field)
         search_query = f"{field_label} {period_label}".strip()
 
@@ -288,11 +310,25 @@ JSON Output:""",
             "report_scope": intent.report_scope,
         }
         print(f"[Calculation] Đang tra cứu '{field_label}' | filter ticker={intent.ticker}, "
-              f"year={intent.year}, report_scope={intent.report_scope}")
+              f"year={intent.year}, report_scope={intent.report_scope}, stage={stage}")
 
-        RRF_ids, content_lookup = self.search_pipeline.RRF_fuse([search_query], metadata_filter=metadata_filter)
-        top_ids = self.search_pipeline.rerank(search_query, RRF_ids, content_lookup, top_k=5)
-        print(f"[Calculation] '{field_label}': còn lại {len(RRF_ids)} chunk sau RRF, giữ được {len(top_ids)} sau rerank")
+        RRF_ids, content_lookup = self.search_pipeline.RRF_fuse(
+            [search_query], metadata_filter=metadata_filter, stage=stage
+        )
+        if stage in (STAGE_FULL, STAGE_RERANKER):
+            top_ids = self.search_pipeline.rerank(search_query, RRF_ids, content_lookup, top_k=5)
+        else:
+            # stage="bm25"/"dense"/"rrf": TẮT Reranker -- cắt thẳng top 5 từ
+            # danh sách RRF_fuse() đã trả về (đã xếp hạng sẵn theo điểm gốc
+            # hoặc theo RRF score, tuỳ stage), y hệt cách
+            # HybridSearchPipeline._retrieve_for_entity() xử lý.
+            top_ids = [
+                _normalize_cid(cid) for cid in RRF_ids
+                if content_lookup.get(_normalize_cid(cid), {}).get("content")
+            ][:5]
+            print(f"[Calculation][{stage.upper()}] Đã TẮT Reranker cho '{field_label}'. "
+                  f"Cắt thẳng top {len(top_ids)} chunk ID: {top_ids}")
+        print(f"[Calculation] '{field_label}': còn lại {len(RRF_ids)} chunk sau RRF/candidate (stage={stage}), giữ được {len(top_ids)} chunk cuối")
 
         contexts, seen_parents = [], set()
         for cid in top_ids:
@@ -388,10 +424,19 @@ JSON Output:""",
         return operand, citations
 
 
-    def calculate(self, query: str, session_id: Optional[str] = None) -> CalculationResponse:
-        print(f"[Calculation] Bắt đầu xử lý câu hỏi loại calculation: {query!r} (session={session_id!r})")
+    def calculate(
+        self,
+        query: str,
+        session_id: Optional[str] = None,
+        stage: str = STAGE_FULL,
+    ) -> CalculationResponse:
+        if stage not in VALID_STAGES:
+            raise ValueError(f"stage không hợp lệ: {stage!r} (chọn 1 trong {VALID_STAGES})")
+
+        print(f"[Calculation] Bắt đầu xử lý câu hỏi loại calculation: {query!r} (session={session_id!r}, stage={stage})")
         intent = self.extract_intent(query, session_id=session_id)
         intent_json = intent.model_dump()
+        intent_json["stage"] = stage
 
         if not intent.metric_keys:
             print("[Calculation] Không khớp được metric_key nào trong registry.")
@@ -418,7 +463,7 @@ JSON Output:""",
 
         def fetch_operand_cached(field: str) -> tuple[Optional[OperandDetail], list[dict]]:
             if field not in operand_cache:
-                operand_cache[field] = self._fetch_operand(field, intent, period_label)
+                operand_cache[field] = self._fetch_operand(field, intent, period_label, stage=stage)
             return operand_cache[field]
 
         section_answers: list[str] = []

@@ -100,7 +100,7 @@ def format_contexts_for_generator(contexts: list[str]) -> list[dict[str, Any]]:
 # End-to-end pipeline run
 # ----------------------------------------------------------------------------
 
-def run_pipeline(dataset: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def run_pipeline(dataset: list[dict[str, Any]], stage: str = "full") -> list[dict[str, Any]]:
     pipeline = HybridSearchPipeline()
     generator = AnswerGenerator()
 
@@ -110,11 +110,11 @@ def run_pipeline(dataset: list[dict[str, Any]]) -> list[dict[str, Any]]:
         ground_truth = item.get("ground_truth", "")
         evolution_type = item.get("evolution_type", "unknown")
 
-        print(f"[{i}/{len(dataset)}] {question[:70]}...")
+        print(f"[{i}/{len(dataset)}] (stage={stage}) {question[:70]}...")
 
         # --- Retrieval ---
         try:
-            retrieval_result = pipeline.retrieve(question)
+            retrieval_result = pipeline.retrieve(question, stage=stage)
             retrieved_contexts = [c["content"] for c in retrieval_result.get("context", [])]
         except Exception as e:
             print(f"    [WARN] retrieval failed: {e}", file=sys.stderr)
@@ -227,7 +227,22 @@ def main() -> None:
     parser.add_argument(
         "--out",
         type=Path,
-        default=Path("evaluation/results/ragas_results.json"),
+        default=None,
+        help="Đường dẫn file kết quả. Mặc định: evaluation/results/ragas_results_<stage>.json.",
+    )
+    parser.add_argument(
+        "--stage",
+        type=str,
+        default="full",
+        choices=["full", "bm25", "dense", "rrf", "reranker"],
+        help=(
+            "Bật/tắt từng thành phần Hybrid Search để đánh giá riêng (ablation): "
+            "'bm25' (chỉ BM25, tắt Dense/RRF/Reranker), "
+            "'dense' (chỉ Dense, tắt BM25/RRF/Reranker), "
+            "'rrf' (BM25+Dense+RRF, tắt Reranker), "
+            "'reranker' (BM25+Dense, bỏ RRF, vào thẳng Reranker), "
+            "'full' (mặc định, đầy đủ pipeline)."
+        ),
     )
     parser.add_argument("--limit", type=int, default=None, help="Only evaluate the first N items (quick run).")
     parser.add_argument("--index", type=int, default=None, help="Chỉ đánh giá 1 câu cụ thể theo chỉ số (1-indexed, ví dụ --index 21).")
@@ -258,13 +273,18 @@ def main() -> None:
             dataset = dataset[: args.limit]
     print(f"Loaded {len(dataset)} items from {args.dataset}")
 
-    rows = run_pipeline(dataset)
+    if args.out is None:
+        suffix = "" if args.stage == "full" else f"_{args.stage}"
+        args.out = Path(f"evaluation/results/ragas_results{suffix}.json")
+
+    rows = run_pipeline(dataset, stage=args.stage)
     ragas_result = run_ragas(rows)
 
     result_df = ragas_result.to_pandas()
     # attach evolution_type back for the per-group breakdown (row order is preserved)
     result_df["evolution_type"] = [r["evolution_type"] for r in rows]
 
+    print(f"\n[stage={args.stage}] Kết quả trên -- ghi vào {args.out}")
     print_summary(result_df)
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
@@ -290,7 +310,7 @@ def main() -> None:
     }
 
     with open(args.out, "w", encoding="utf-8") as f:
-        json.dump({"overall": overall, "per_question": per_question}, f, ensure_ascii=False, indent=2)
+        json.dump({"stage": args.stage, "overall": overall, "per_question": per_question}, f, ensure_ascii=False, indent=2)
     print(f"Detailed per-question results written to {args.out}")
 
 

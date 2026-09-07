@@ -1,0 +1,284 @@
+======================================================================
+RAGAS EVALUATION SUMMARY (overall) - A32
+======================================================================
++-------------------+--------------+
+| Metric            |   Mean Score |
++===================+==============+
+| faithfulness      |        0.446 |
++-------------------+--------------+
+| answer_relevancy  |        0.484 |
++-------------------+--------------+
+| context_precision |        0.406 |
++-------------------+--------------+
+| context_recall    |        0.607 |
++-------------------+--------------+
+
+By evolution_type:
+
+  -- calculation (n=5) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- conditional (n=2) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- hallucination (n=4) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.333
+answer_relevancy          0.461
+context_precision         0.575
+context_recall            1
+
+  -- reasoning (n=3) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- simple (n=14) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.798
+answer_relevancy          0.837
+context_precision         0.648
+context_recall            0.929
+
+======================================================================
+RAGAS EVALUATION SUMMARY (overall) - AAM
+======================================================================
++-------------------+--------------+
+| Metric            |   Mean Score |
++===================+==============+
+| faithfulness      |        0.139 |
++-------------------+--------------+
+| answer_relevancy  |        0.175 |
++-------------------+--------------+
+| context_precision |        0.316 |
++-------------------+--------------+
+| context_recall    |        0.467 |
++-------------------+--------------+
+
+By evolution_type:
+
+  -- calculation (n=6) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- conditional (n=2) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- hallucination (n=3) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0
+answer_relevancy          0
+context_precision         0.111
+context_recall            1
+
+  -- reasoning (n=3) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- simple (n=16) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.26
+answer_relevancy          0.328
+context_precision         0.572
+context_recall            0.688
+
+======================================================================
+RAGAS EVALUATION SUMMARY (overall) - AMC
+======================================================================
++-------------------+--------------+
+| Metric            |   Mean Score |
++===================+==============+
+| faithfulness      |        0.428 |
++-------------------+--------------+
+| answer_relevancy  |        0.399 |
++-------------------+--------------+
+| context_precision |        0.436 |
++-------------------+--------------+
+| context_recall    |        0.5   |
++-------------------+--------------+
+
+By evolution_type:
+
+  -- calculation (n=7) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- conditional (n=2) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- hallucination (n=3) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0
+answer_relevancy          0
+context_precision         0.379
+context_recall            1
+
+  -- reasoning (n=3) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- simple (n=15) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.856
+answer_relevancy          0.798
+context_precision         0.796
+context_recall            0.8
+
+======================================================================
+RAGAS EVALUATION SUMMARY (overall) - BaoVietBank
+======================================================================
++-------------------+--------------+
+| Metric            |   Mean Score |
++===================+==============+
+| faithfulness      |        0.357 |
++-------------------+--------------+
+| answer_relevancy  |        0.363 |
++-------------------+--------------+
+| context_precision |        0.329 |
++-------------------+--------------+
+| context_recall    |        0.429 |
++-------------------+--------------+
+
+By evolution_type:
+
+  -- calculation (n=5) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- conditional (n=3) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- hallucination (n=4) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.167
+answer_relevancy          0.235
+context_precision         0.203
+context_recall            0.75
+
+  -- reasoning (n=3) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- simple (n=13) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.718
+answer_relevancy          0.708
+context_precision         0.645
+context_recall            0.692
+
+======================================================================
+RAGAS EVALUATION SUMMARY (overall) - BVH
+======================================================================
++-------------------+--------------+
+| Metric            |   Mean Score |
++===================+==============+
+| faithfulness      |        0.404 |
++-------------------+--------------+
+| answer_relevancy  |        0.387 |
++-------------------+--------------+
+| context_precision |        0.419 |
++-------------------+--------------+
+| context_recall    |        0.411 |
++-------------------+--------------+
+
+By evolution_type:
+
+  -- calculation (n=5) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- conditional (n=3) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- hallucination (n=5) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.489
+answer_relevancy          0.545
+context_precision         0.669
+context_recall            0.7
+
+  -- reasoning (n=3) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness                  0
+answer_relevancy              0
+context_precision             0
+context_recall                0
+
+  -- simple (n=12) --
+Metric               Mean Score
+-----------------  ------------
+faithfulness              0.74
+answer_relevancy          0.675
+context_precision         0.699
+context_recall            0.667
